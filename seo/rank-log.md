@@ -7,3 +7,4 @@ Google Search Console (US) once the site is verified.
 |---|---|---|---|
 | 2026-08-16 | how-to-start-and-scale-a-tiktok-shop-in-the-usa | how to start a tiktok shop in the usa | Seed post + blog system launched |
 | 2026-08-21 | tiktok-shop-agency-usa | tiktok shop agency usa | Watch US SERP + AI Overview citations for "tiktok shop agency usa" |
+| 2026-08-21 | tiktok-shop-management-services | tiktok shop management services | Watch US SERP + AI Overview citations for "tiktok shop management services" |

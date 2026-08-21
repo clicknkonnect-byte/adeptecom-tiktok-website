@@ -6,7 +6,7 @@ Priority order. Primary intent: US brands/sellers looking for TikTok Shop help.
 |---|---|---|---|
 | 1 | how to start a tiktok shop in the usa | informational | done 2026-08-16 |
 | 2 | tiktok shop agency usa | commercial | done 2026-08-21 |
-| 3 | tiktok shop management services | commercial | todo |
+| 3 | tiktok shop management services | commercial | done 2026-08-21 |
 | 4 | tiktok shop affiliate program setup | commercial | todo |
 | 5 | how to get creators for tiktok shop | informational | todo |
 | 6 | tiktok spark ads agency | commercial | todo |
