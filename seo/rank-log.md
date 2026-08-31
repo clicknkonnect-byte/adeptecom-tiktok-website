@@ -9,3 +9,4 @@ Google Search Console (US) once the site is verified.
 | 2026-08-21 | tiktok-shop-agency-usa | tiktok shop agency usa | Watch US SERP + AI Overview citations for "tiktok shop agency usa" |
 | 2026-08-21 | tiktok-shop-management-services | tiktok shop management services | Watch US SERP + AI Overview citations for "tiktok shop management services" |
 | 2026-08-24 | tiktok-shop-affiliate-program-setup | tiktok shop affiliate program setup | Watch US SERP + AI Overview citations for "tiktok shop affiliate program setup" |
+| 2026-08-31 | how-to-get-creators-for-tiktok-shop | how to get creators for tiktok shop | Watch US SERP + AI Overview citations for "how to get creators for tiktok shop" |

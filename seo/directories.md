@@ -8,8 +8,8 @@ submit (bot-detection & login required, per Adeptecom policy).
 | Google Business Profile | https://business.google.com | HIGH (local + maps + AI) | todo |
 | Bing Places | https://www.bingplaces.com | HIGH | todo |
 | Clutch (agencies) | https://clutch.co | HIGH (B2B) | todo |
-| The Manifest | https://themanifest.com | MED | submit next |
-| DesignRush | https://www.designrush.com | MED | todo |
+| The Manifest | https://themanifest.com | MED | todo |
+| DesignRush | https://www.designrush.com | MED | submit next |
 | Sortlist | https://www.sortlist.com | MED | todo |
 | GoodFirms | https://www.goodfirms.co | MED | todo |
 | Yelp for Business | https://biz.yelp.com | MED (US local) | todo |
