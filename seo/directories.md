@@ -10,8 +10,8 @@ submit (bot-detection & login required, per Adeptecom policy).
 | Clutch (agencies) | https://clutch.co | HIGH (B2B) | todo |
 | The Manifest | https://themanifest.com | MED | todo |
 | DesignRush | https://www.designrush.com | MED | todo |
-| Sortlist | https://www.sortlist.com | MED | submit next |
-| GoodFirms | https://www.goodfirms.co | MED | todo |
+| Sortlist | https://www.sortlist.com | MED | todo |
+| GoodFirms | https://www.goodfirms.co | MED | submit next |
 | Yelp for Business | https://biz.yelp.com | MED (US local) | todo |
 | Trustpilot | https://business.trustpilot.com | HIGH (reviews + rich results) | todo |
 | LinkedIn Company Page | https://www.linkedin.com/company | HIGH | todo |
