@@ -12,3 +12,4 @@ Google Search Console (US) once the site is verified.
 | 2026-08-31 | how-to-get-creators-for-tiktok-shop | how to get creators for tiktok shop | Watch US SERP + AI Overview citations for "how to get creators for tiktok shop" |
 | 2026-09-03 | tiktok-spark-ads-agency | tiktok spark ads agency | Watch US SERP + AI Overview citations for "tiktok spark ads agency" |
 | 2026-09-07 | tiktok-shop-gmv-max-explained | tiktok shop gmv max explained | Watch US SERP + AI Overview citations for "tiktok shop gmv max explained" |
+| 2026-09-10 | tiktok-shop-listing-optimization | tiktok shop listing optimization | Watch US SERP + AI Overview citations for "tiktok shop listing optimization" |

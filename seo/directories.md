@@ -11,8 +11,8 @@ submit (bot-detection & login required, per Adeptecom policy).
 | The Manifest | https://themanifest.com | MED | todo |
 | DesignRush | https://www.designrush.com | MED | todo |
 | Sortlist | https://www.sortlist.com | MED | todo |
-| GoodFirms | https://www.goodfirms.co | MED | submit next |
-| Yelp for Business | https://biz.yelp.com | MED (US local) | todo |
+| GoodFirms | https://www.goodfirms.co | MED | todo |
+| Yelp for Business | https://biz.yelp.com | MED (US local) | submit next |
 | Trustpilot | https://business.trustpilot.com | HIGH (reviews + rich results) | todo |
 | LinkedIn Company Page | https://www.linkedin.com/company | HIGH | todo |
 | Crunchbase | https://www.crunchbase.com | MED | todo |
