@@ -12,7 +12,7 @@ Priority order. Primary intent: US brands/sellers looking for TikTok Shop help.
 | 6 | tiktok spark ads agency | commercial | done 2026-09-03 |
 | 7 | tiktok shop gmv max explained | informational | done 2026-09-07 |
 | 8 | tiktok shop listing optimization | informational | done 2026-09-10 |
-| 9 | why is my tiktok shop listing rejected | informational | todo |
+| 9 | why is my tiktok shop listing rejected | informational | done 2026-09-14 |
 | 10 | tiktok live selling strategy | informational | todo |
 | 11 | tiktok shop compliance requirements usa | informational | todo |
 | 12 | tiktok shop for beauty brands | commercial | todo |
