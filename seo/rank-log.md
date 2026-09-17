@@ -14,3 +14,4 @@ Google Search Console (US) once the site is verified.
 | 2026-09-07 | tiktok-shop-gmv-max-explained | tiktok shop gmv max explained | Watch US SERP + AI Overview citations for "tiktok shop gmv max explained" |
 | 2026-09-10 | tiktok-shop-listing-optimization | tiktok shop listing optimization | Watch US SERP + AI Overview citations for "tiktok shop listing optimization" |
 | 2026-09-14 | why-is-my-tiktok-shop-listing-rejected | why is my tiktok shop listing rejected | Watch US SERP + AI Overview citations for "why is my tiktok shop listing rejected" |
+| 2026-09-17 | tiktok-live-selling-strategy | tiktok live selling strategy | Watch US SERP + AI Overview citations for "tiktok live selling strategy" |
