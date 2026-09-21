@@ -14,7 +14,7 @@ Priority order. Primary intent: US brands/sellers looking for TikTok Shop help.
 | 8 | tiktok shop listing optimization | informational | done 2026-09-10 |
 | 9 | why is my tiktok shop listing rejected | informational | done 2026-09-14 |
 | 10 | tiktok live selling strategy | informational | done 2026-09-17 |
-| 11 | tiktok shop compliance requirements usa | informational | todo |
+| 11 | tiktok shop compliance requirements usa | informational | done 2026-09-21 |
 | 12 | tiktok shop for beauty brands | commercial | todo |
 | 13 | tiktok shop for supplement brands usa | commercial | todo |
 | 14 | how much does a tiktok shop agency cost | commercial | todo |
