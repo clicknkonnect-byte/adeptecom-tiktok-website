@@ -24,6 +24,8 @@ Canonical domain: https://adeptecom.co
    - Internal-link to 2–4 relevant service pages (`../service-*.html`) and 1 related post.
    - Add JSON-LD: `Article`, `FAQPage`, and `BreadcrumbList` (copy the pattern from the seed post).
    - Set `datePublished`/`dateModified` to today (UTC).
+   - Keep the Google Analytics tag (`gtag.js`, id `G-613QQWG97C`) in `<head>` right after the
+     viewport meta — every page on the site MUST include this exact tag (it's in the seed skeleton).
 
 3. **AEO / LLM optimization.** Make the post answer-first: a crisp 1–2 sentence answer
    directly under each H2 question, clear entity naming ("Adeptecom", "TikTok Shop"),
