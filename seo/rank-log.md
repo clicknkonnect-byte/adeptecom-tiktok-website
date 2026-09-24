@@ -16,3 +16,4 @@ Google Search Console (US) once the site is verified.
 | 2026-09-14 | why-is-my-tiktok-shop-listing-rejected | why is my tiktok shop listing rejected | Watch US SERP + AI Overview citations for "why is my tiktok shop listing rejected" |
 | 2026-09-17 | tiktok-live-selling-strategy | tiktok live selling strategy | Watch US SERP + AI Overview citations for "tiktok live selling strategy" |
 | 2026-09-21 | tiktok-shop-compliance-requirements-usa | tiktok shop compliance requirements usa | Watch US SERP + AI Overview citations for "tiktok shop compliance requirements usa" |
+| 2026-09-24 | tiktok-shop-for-beauty-brands | tiktok shop for beauty brands | Watch US SERP + AI Overview citations for "tiktok shop for beauty brands" |
