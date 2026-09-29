@@ -3,18 +3,23 @@
 One row per routine run. Track the target term and check positions periodically in
 Google Search Console (US) once the site is verified.
 
-| Date | Published post | Target keyword | Notes |
-|---|---|---|---|
-| 2026-08-16 | how-to-start-and-scale-a-tiktok-shop-in-the-usa | how to start a tiktok shop in the usa | Seed post + blog system launched |
-| 2026-08-21 | tiktok-shop-agency-usa | tiktok shop agency usa | Watch US SERP + AI Overview citations for "tiktok shop agency usa" |
-| 2026-08-21 | tiktok-shop-management-services | tiktok shop management services | Watch US SERP + AI Overview citations for "tiktok shop management services" |
-| 2026-08-24 | tiktok-shop-affiliate-program-setup | tiktok shop affiliate program setup | Watch US SERP + AI Overview citations for "tiktok shop affiliate program setup" |
-| 2026-08-31 | how-to-get-creators-for-tiktok-shop | how to get creators for tiktok shop | Watch US SERP + AI Overview citations for "how to get creators for tiktok shop" |
-| 2026-09-03 | tiktok-spark-ads-agency | tiktok spark ads agency | Watch US SERP + AI Overview citations for "tiktok spark ads agency" |
-| 2026-09-07 | tiktok-shop-gmv-max-explained | tiktok shop gmv max explained | Watch US SERP + AI Overview citations for "tiktok shop gmv max explained" |
-| 2026-09-10 | tiktok-shop-listing-optimization | tiktok shop listing optimization | Watch US SERP + AI Overview citations for "tiktok shop listing optimization" |
-| 2026-09-14 | why-is-my-tiktok-shop-listing-rejected | why is my tiktok shop listing rejected | Watch US SERP + AI Overview citations for "why is my tiktok shop listing rejected" |
-| 2026-09-17 | tiktok-live-selling-strategy | tiktok live selling strategy | Watch US SERP + AI Overview citations for "tiktok live selling strategy" |
-| 2026-09-21 | tiktok-shop-compliance-requirements-usa | tiktok shop compliance requirements usa | Watch US SERP + AI Overview citations for "tiktok shop compliance requirements usa" |
-| 2026-09-24 | tiktok-shop-for-beauty-brands | tiktok shop for beauty brands | Watch US SERP + AI Overview citations for "tiktok shop for beauty brands" |
-| 2026-09-28 | tiktok-shop-for-supplement-brands-usa | tiktok shop for supplement brands usa | Watch US SERP + AI Overview citations for "tiktok shop for supplement brands usa" |
+The "AEO check" column is a live WebSearch spot-check (not full Search Console data)
+for whether adeptecom.co appears anywhere in the US organic results for the target
+keyword — see SEO-PLAYBOOK.md "AEO / LLM citation tracking". `not checked yet` means
+the routine hasn't run that check for this row yet; it doesn't mean "not cited."
+
+| Date | Published post | Target keyword | AEO check | Notes |
+|---|---|---|---|---|
+| 2026-08-16 | how-to-start-and-scale-a-tiktok-shop-in-the-usa | how to start a tiktok shop in the usa | not checked yet | Seed post + blog system launched |
+| 2026-08-21 | tiktok-shop-agency-usa | tiktok shop agency usa | not checked yet | |
+| 2026-08-21 | tiktok-shop-management-services | tiktok shop management services | not checked yet | |
+| 2026-08-24 | tiktok-shop-affiliate-program-setup | tiktok shop affiliate program setup | not checked yet | |
+| 2026-08-31 | how-to-get-creators-for-tiktok-shop | how to get creators for tiktok shop | not checked yet | |
+| 2026-09-03 | tiktok-spark-ads-agency | tiktok spark ads agency | not checked yet | |
+| 2026-09-07 | tiktok-shop-gmv-max-explained | tiktok shop gmv max explained | not checked yet | |
+| 2026-09-10 | tiktok-shop-listing-optimization | tiktok shop listing optimization | not checked yet | |
+| 2026-09-14 | why-is-my-tiktok-shop-listing-rejected | why is my tiktok shop listing rejected | not checked yet | |
+| 2026-09-17 | tiktok-live-selling-strategy | tiktok live selling strategy | not checked yet | |
+| 2026-09-21 | tiktok-shop-compliance-requirements-usa | tiktok shop compliance requirements usa | not checked yet | |
+| 2026-09-24 | tiktok-shop-for-beauty-brands | tiktok shop for beauty brands | not cited (2026-09-29) | Live WebSearch for "tiktok shop for beauty brands adeptecom" surfaced only unrelated results (incl. an unrelated brand called "Adept Cosmetics") — no adeptecom.co citation yet. Site is ~5 weeks old; expected until domain authority builds. Re-check in a few weeks. |
+| 2026-09-28 | tiktok-shop-for-supplement-brands-usa | tiktok shop for supplement brands usa | not checked yet | |

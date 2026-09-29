@@ -29,5 +29,15 @@ Priority order. Primary intent: US brands/sellers looking for TikTok Shop help.
 | 23 | tiktok shop launch checklist usa | informational | todo |
 | 24 | tiktok shop content brief for creators | informational | todo |
 | 25 | tiktok shop marketing agency for startups | commercial | todo |
+| 26 | what is a tiktok shop partner (tsp) | informational | todo |
+| 27 | questions to ask before hiring a tiktok shop agency | commercial | todo |
+| 28 | tiktok shop live selling for supplement brands | informational | todo |
+| 29 | tiktok shop kpis and reporting agencies should track | informational | todo |
+| 30 | tiktok shop creator content velocity strategy | informational | todo |
 
 Add new keyword ideas below over time (from competitor gaps + AI-query trends).
+Rows 26–30 added 2026-09-29 from a live WebSearch pass (see SEO-PLAYBOOK.md
+"Live keyword & SERP research") — sourced from real buyer questions about
+TikTok Shop agencies (TSP status, creators active, GMV managed, commission
+model, reporting cadence) and confirmed 2026 category trends (content
+velocity over ad spend; LIVE selling especially strong in supplements).
