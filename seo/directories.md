@@ -13,8 +13,8 @@ submit (bot-detection & login required, per Adeptecom policy).
 | Sortlist | https://www.sortlist.com | MED | todo |
 | GoodFirms | https://www.goodfirms.co | MED | todo |
 | Yelp for Business | https://biz.yelp.com | MED (US local) | todo |
-| Trustpilot | https://business.trustpilot.com | HIGH (reviews + rich results) | submit next |
-| LinkedIn Company Page | https://www.linkedin.com/company | HIGH | todo |
+| Trustpilot | https://business.trustpilot.com | HIGH (reviews + rich results) | todo |
+| LinkedIn Company Page | https://www.linkedin.com/company | HIGH | submit next |
 | Crunchbase | https://www.crunchbase.com | MED | todo |
 | TikTok Shop Partner directory | https://partner.tiktokshop.com | HIGH (category authority) | todo |
 

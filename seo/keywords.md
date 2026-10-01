@@ -17,7 +17,7 @@ Priority order. Primary intent: US brands/sellers looking for TikTok Shop help.
 | 11 | tiktok shop compliance requirements usa | informational | done 2026-09-21 |
 | 12 | tiktok shop for beauty brands | commercial | done 2026-09-24 |
 | 13 | tiktok shop for supplement brands usa | commercial | done 2026-09-28 |
-| 14 | how much does a tiktok shop agency cost | commercial | todo |
+| 14 | how much does a tiktok shop agency cost | commercial | done 2026-10-01 |
 | 15 | tiktok shop vs amazon for brands | informational | todo |
 | 16 | tiktok shop creator affiliate commission rates | informational | todo |
 | 17 | how to scale tiktok shop sales | informational | todo |
@@ -41,3 +41,15 @@ Rows 26–30 added 2026-09-29 from a live WebSearch pass (see SEO-PLAYBOOK.md
 TikTok Shop agencies (TSP status, creators active, GMV managed, commission
 model, reporting cadence) and confirmed 2026 category trends (content
 velocity over ad spend; LIVE selling especially strong in supplements).
+
+| 31 | tiktok shop agency retainer vs commission pricing | commercial | todo |
+| 32 | tiktok shop agency flat fee vs percentage of gmv | commercial | todo |
+| 33 | what is included in tiktok shop management retainer | informational | todo |
+| 34 | tiktok shop ad spend budget for new sellers | informational | todo |
+| 35 | tiktok shop partner (tsp) vs independent agency cost | commercial | todo |
+
+Rows 31–35 added 2026-10-01 (live research) — sourced from real pricing
+questions US buyers ask TikTok Shop agencies (retainer structure, GMV-share
+vs. flat fee, what's bundled vs. add-on) and 2026 category data (US GMV
+grew 103% YoY to $11.8B in H1 2026; Shop tab now drives the majority of US
+GMV) used to ground this run's cost-guide post.
