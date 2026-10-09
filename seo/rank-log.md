@@ -12,8 +12,8 @@ the routine hasn't run that check for this row yet; it doesn't mean "not cited."
 |---|---|---|---|---|
 | 2026-08-16 | how-to-start-and-scale-a-tiktok-shop-in-the-usa | how to start a tiktok shop in the usa | not cited (2026-10-01) | Live WebSearch for "how to start a tiktok shop in the usa adeptecom" surfaced only generic setup guides from other sites — no adeptecom.co citation yet. |
 | 2026-08-21 | tiktok-shop-agency-usa | tiktok shop agency usa | not cited (2026-10-01) | Live WebSearch for "tiktok shop agency usa adeptecom" surfaced other named agencies (Sociallyin, Tinuiti, Power Digital) but no adeptecom.co citation yet. |
-| 2026-08-21 | tiktok-shop-management-services | tiktok shop management services | not checked yet | |
-| 2026-08-24 | tiktok-shop-affiliate-program-setup | tiktok shop affiliate program setup | not checked yet | |
+| 2026-08-21 | tiktok-shop-management-services | tiktok shop management services | not cited (2026-10-09) | Live WebSearch for "tiktok shop management services adeptecom" surfaced only other providers (Suntec India, Evolved Commerce, EcomAchieve, Slayva, Fiverr listings) — no adeptecom.co citation yet. |
+| 2026-08-24 | tiktok-shop-affiliate-program-setup | tiktok shop affiliate program setup | not cited (2026-10-09) | Live WebSearch for "tiktok shop affiliate program setup adeptecom" surfaced no mention of Adeptecom at all — results were generic TikTok affiliate setup guides and third-party agencies. |
 | 2026-08-31 | how-to-get-creators-for-tiktok-shop | how to get creators for tiktok shop | not checked yet | |
 | 2026-09-03 | tiktok-spark-ads-agency | tiktok spark ads agency | not checked yet | |
 | 2026-09-07 | tiktok-shop-gmv-max-explained | tiktok shop gmv max explained | not checked yet | |
@@ -24,3 +24,4 @@ the routine hasn't run that check for this row yet; it doesn't mean "not cited."
 | 2026-09-24 | tiktok-shop-for-beauty-brands | tiktok shop for beauty brands | not cited (2026-09-29) | Live WebSearch for "tiktok shop for beauty brands adeptecom" surfaced only unrelated results (incl. an unrelated brand called "Adept Cosmetics") — no adeptecom.co citation yet. Site is ~5 weeks old; expected until domain authority builds. Re-check in a few weeks. |
 | 2026-09-28 | tiktok-shop-for-supplement-brands-usa | tiktok shop for supplement brands usa | not checked yet | |
 | 2026-10-01 | how-much-does-a-tiktok-shop-agency-cost | how much does a tiktok shop agency cost | not checked yet | |
+| 2026-10-09 | tiktok-shop-vs-amazon-for-brands | tiktok shop vs amazon for brands | not checked yet | |

@@ -18,7 +18,7 @@ Priority order. Primary intent: US brands/sellers looking for TikTok Shop help.
 | 12 | tiktok shop for beauty brands | commercial | done 2026-09-24 |
 | 13 | tiktok shop for supplement brands usa | commercial | done 2026-09-28 |
 | 14 | how much does a tiktok shop agency cost | commercial | done 2026-10-01 |
-| 15 | tiktok shop vs amazon for brands | informational | todo |
+| 15 | tiktok shop vs amazon for brands | informational | done 2026-10-09 |
 | 16 | tiktok shop creator affiliate commission rates | informational | todo |
 | 17 | how to scale tiktok shop sales | informational | todo |
 | 18 | tiktok shop seller onboarding usa | informational | todo |
@@ -53,3 +53,16 @@ questions US buyers ask TikTok Shop agencies (retainer structure, GMV-share
 vs. flat fee, what's bundled vs. add-on) and 2026 category data (US GMV
 grew 103% YoY to $11.8B in H1 2026; Shop tab now drives the majority of US
 GMV) used to ground this run's cost-guide post.
+
+| 36 | tiktok shop for amazon sellers expansion strategy | commercial | todo |
+| 37 | tiktok shop and amazon dual-funnel strategy | informational | todo |
+| 38 | is tiktok shop worth it for established amazon brands | commercial | todo |
+| 39 | tiktok shop content velocity vs amazon seo | informational | todo |
+| 40 | tiktok shop seller fees vs amazon referral fees | informational | todo |
+
+Rows 36–40 added 2026-10-09 (live research) — sourced from real buyer
+questions comparing TikTok Shop and Amazon (whether Amazon sellers should
+expand to TikTok Shop, running both as a "dual-funnel," true cost once
+creator commissions are added, and how content-driven discovery compares
+to Amazon's search-driven model) found while researching this run's
+TikTok Shop vs. Amazon comparison post.

@@ -14,8 +14,8 @@ submit (bot-detection & login required, per Adeptecom policy).
 | GoodFirms | https://www.goodfirms.co | MED | todo |
 | Yelp for Business | https://biz.yelp.com | MED (US local) | todo |
 | Trustpilot | https://business.trustpilot.com | HIGH (reviews + rich results) | todo |
-| LinkedIn Company Page | https://www.linkedin.com/company | HIGH | submit next |
-| Crunchbase | https://www.crunchbase.com | MED | todo |
+| LinkedIn Company Page | https://www.linkedin.com/company | HIGH | todo |
+| Crunchbase | https://www.crunchbase.com | MED | submit next |
 | TikTok Shop Partner directory | https://partner.tiktokshop.com | HIGH (category authority) | todo |
 
 Notes: consistent NAP (Name, Address, Phone) across all: Adeptecom, 343 Paseo Nuevo St,
