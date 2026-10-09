@@ -12,6 +12,45 @@ Overviews) — i.e. classic SEO + AEO/GEO.
 Site: static HTML + one PHP contact form. Deploys on Hostinger from `main`.
 Canonical domain: https://adeptecom.co
 
+## Q4 2026 directive: aggressive lead generation (set 2026-10-09)
+
+The owner has asked explicitly to go aggressive this quarter: more content,
+faster, with the specific goal of USA DTC brands finding Adeptecom through
+search AND through AI assistants (ChatGPT, Perplexity, AI Overviews) when
+they're evaluating who to hire, and then actually sending an inquiry via
+`../index.html#contact`. This is a deliberate, owner-approved change to the
+"one post per run" guardrail below. Until the owner says otherwise:
+
+- **Keyword order:** pick the next keyword from the "Q4 2026 priority
+  override" list at the top of `seo/keywords.md` first (commercial /
+  bottom-funnel "hiring an agency" intent), not the plain top-down table.
+  Fall back to top-down once that override list is exhausted.
+- **Cadence:** the routine's own trigger fires more often this quarter (see
+  the scheduled trigger, not this file) — don't try to compensate by cramming
+  multiple posts into a single run. One strong, fully-validated post per run
+  is still the right unit of work; frequency is how volume goes up, not
+  per-run scope. If a human explicitly asks for more than one post in a
+  single run, that's fine too, but don't default to it on your own.
+- **Every post should read as "how do I pick/evaluate an agency" where the
+  keyword allows it** — buyer-checklist framing (what to look for, questions
+  to ask, red flags, pricing breakdowns) converts to inquiries far better than
+  pure how-to content, and is exactly the shape of answer AI assistants quote
+  when someone asks "how do I find a TikTok Shop agency." Keep informational
+  keywords too (they build topical depth and still get AEO-cited), just don't
+  let them crowd out the commercial ones this quarter.
+- **Never rank or name specific competitor agencies as recommendations** —
+  buyer-checklist posts give criteria and red flags, not a "best agencies"
+  listicle that sends the reader to a competitor. It's fine to note neutrally
+  that published "best agency" rankings are often written by the agencies on
+  them (this is true and it's a real reason to prefer a checklist).
+- **AI-answer-engine grounding:** keep `/llms.txt` at the repo root current
+  (services, packages/pricing, proof points, contact path) — see step 5a
+  below. This is a direct lever for how AI assistants describe and cite
+  Adeptecom, separate from classic SEO.
+- This section itself is the deliberate update the "one post per run" line
+  below asked for — it doesn't need to be re-justified every run, just
+  followed, and revisited if the owner says to dial back.
+
 ## Each run — do ALL of the following, then commit & push to `main`
 
 0. **Live keyword & SERP research (WebSearch, every run).** Don't rely solely on the
@@ -68,6 +107,12 @@ Canonical domain: https://adeptecom.co
    - Verify every page has a unique `<title>`, meta description, canonical, and OG tags.
    - Keep `robots.txt` allowing all + sitemap reference.
 
+5a. **AI-answer-engine file.** Keep `/llms.txt` at the repo root in sync with
+    reality: services, pricing tiers, the approved proof points (guardrails
+    below), and the contact path. This is read by AI crawlers/assistants and
+    is a direct AEO lever — update it the same run you change pricing,
+    services, or add a page that should be surfaced to an AI assistant.
+
 6. **AEO / LLM citation tracking (WebSearch, every run).** Pick 1–2 previously
    published posts from `seo/rank-log.md` whose "AEO check" column says
    `not checked yet` (oldest first), and run one `WebSearch` per post for its target
@@ -113,6 +158,8 @@ Canonical domain: https://adeptecom.co
 - US spelling and US market framing.
 - One post per run — quality over volume (Google penalizes thin mass content). If this
   ever changes, it'll be a deliberate update to this line, not an assumption a run makes
-  on its own.
+  on its own. (It changed 2026-10-09 — see the "Q4 2026 directive" section above. The rule
+  is still in force per-run; volume this quarter comes from firing the routine more often,
+  not from writing more posts in one sitting.)
 - Do not touch `contact.php` recipient, pricing, or the address.
 - If unsure, prefer smaller, correct changes over large risky ones.

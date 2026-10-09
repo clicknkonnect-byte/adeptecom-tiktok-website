@@ -2,6 +2,26 @@
 
 Priority order. Primary intent: US brands/sellers looking for TikTok Shop help.
 
+## Q4 2026 priority override (lead-gen push, set 2026-10-09)
+
+Going into Q4, commercial / bottom-funnel "hiring an agency" intent converts to
+leads faster than general informational content, so the routine should pick
+its next keyword from this list (top to bottom) INSTEAD OF the plain top-down
+table order, until this list is exhausted. Each row is still tracked and
+marked `done` in the main table below — this is a reprioritization, not a
+separate backlog. See SEO-PLAYBOOK.md for the full Q4 directive.
+
+1. #25 tiktok shop marketing agency for startups (commercial)
+2. #27 questions to ask before hiring a tiktok shop agency (commercial)
+3. #31 tiktok shop agency retainer vs commission pricing (commercial)
+4. #32 tiktok shop agency flat fee vs percentage of gmv (commercial)
+5. #35 tiktok shop partner (tsp) vs independent agency cost (commercial)
+6. #36 tiktok shop for amazon sellers expansion strategy (commercial)
+7. #38 is tiktok shop worth it for established amazon brands (commercial)
+
+After row 7 above is done, fall back to plain top-down order over the
+remaining informational rows.
+
 | # | Primary keyword | Intent | Status |
 |---|---|---|---|
 | 1 | how to start a tiktok shop in the usa | informational | done 2026-08-16 |
@@ -22,7 +42,7 @@ Priority order. Primary intent: US brands/sellers looking for TikTok Shop help.
 | 16 | tiktok shop creator affiliate commission rates | informational | todo |
 | 17 | how to scale tiktok shop sales | informational | todo |
 | 18 | tiktok shop seller onboarding usa | informational | todo |
-| 19 | best tiktok shop agency for ecommerce brands | commercial | todo |
+| 19 | best tiktok shop agency for ecommerce brands | commercial | done 2026-10-09 |
 | 20 | tiktok shop product seeding strategy | informational | todo |
 | 21 | tiktok shop ai automation | informational | todo |
 | 22 | tiktok shop returns and account health | informational | todo |

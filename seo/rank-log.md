@@ -25,3 +25,4 @@ the routine hasn't run that check for this row yet; it doesn't mean "not cited."
 | 2026-09-28 | tiktok-shop-for-supplement-brands-usa | tiktok shop for supplement brands usa | not checked yet | |
 | 2026-10-01 | how-much-does-a-tiktok-shop-agency-cost | how much does a tiktok shop agency cost | not checked yet | |
 | 2026-10-09 | tiktok-shop-vs-amazon-for-brands | tiktok shop vs amazon for brands | not checked yet | |
+| 2026-10-09 | best-tiktok-shop-agency-for-ecommerce-brands | best tiktok shop agency for ecommerce brands | not checked yet | Q4 lead-gen push: second post published same day (commercial/bottom-funnel intent prioritized ahead of schedule — see SEO-PLAYBOOK.md Q4 note). |
