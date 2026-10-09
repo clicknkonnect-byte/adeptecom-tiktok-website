@@ -6,6 +6,11 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^ https://adeptecom.co%{REQUEST_URI} [L,R=301]
 
+# Redirect legacy URLs from the previous (pre-2026) site to current pages
+RewriteRule ^our-blogs/?$ https://adeptecom.co/blog/ [L,R=301]
+RewriteRule ^contact-us/?$ https://adeptecom.co/#contact [L,R=301]
+RewriteRule ^case-studies/?$ https://adeptecom.co/#results [L,R=301]
+
 ErrorDocument 404 /404.html
 
 <IfModule mod_expires.c>
