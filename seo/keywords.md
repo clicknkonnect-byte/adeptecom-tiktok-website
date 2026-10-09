@@ -11,7 +11,7 @@ table order, until this list is exhausted. Each row is still tracked and
 marked `done` in the main table below — this is a reprioritization, not a
 separate backlog. See SEO-PLAYBOOK.md for the full Q4 directive.
 
-1. #25 tiktok shop marketing agency for startups (commercial)
+1. #25 tiktok shop marketing agency for startups (commercial) — done 2026-10-09
 2. #27 questions to ask before hiring a tiktok shop agency (commercial)
 3. #31 tiktok shop agency retainer vs commission pricing (commercial)
 4. #32 tiktok shop agency flat fee vs percentage of gmv (commercial)
@@ -48,7 +48,7 @@ remaining informational rows.
 | 22 | tiktok shop returns and account health | informational | todo |
 | 23 | tiktok shop launch checklist usa | informational | todo |
 | 24 | tiktok shop content brief for creators | informational | todo |
-| 25 | tiktok shop marketing agency for startups | commercial | todo |
+| 25 | tiktok shop marketing agency for startups | commercial | done 2026-10-09 |
 | 26 | what is a tiktok shop partner (tsp) | informational | todo |
 | 27 | questions to ask before hiring a tiktok shop agency | commercial | todo |
 | 28 | tiktok shop live selling for supplement brands | informational | todo |

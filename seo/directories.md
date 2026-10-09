@@ -15,8 +15,8 @@ submit (bot-detection & login required, per Adeptecom policy).
 | Yelp for Business | https://biz.yelp.com | MED (US local) | todo |
 | Trustpilot | https://business.trustpilot.com | HIGH (reviews + rich results) | todo |
 | LinkedIn Company Page | https://www.linkedin.com/company | HIGH | todo |
-| Crunchbase | https://www.crunchbase.com | MED | submit next |
-| TikTok Shop Partner directory | https://partner.tiktokshop.com | HIGH (category authority) | todo |
+| Crunchbase | https://www.crunchbase.com | MED | todo |
+| TikTok Shop Partner directory | https://partner.tiktokshop.com | HIGH (category authority) | submit next |
 
 Notes: consistent NAP (Name, Address, Phone) across all: Adeptecom, 343 Paseo Nuevo St,
 Sacramento, CA 95838, USA. Use adnan@adeptecom.co and the WhatsApp number.
