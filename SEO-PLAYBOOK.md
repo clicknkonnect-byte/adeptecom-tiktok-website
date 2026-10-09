@@ -129,6 +129,30 @@ they're evaluating who to hire, and then actually sending an inquiry via
    want the wall-clock speedup — it's independent of the new post — but merge the
    result into `seo/rank-log.md` before the final commit either way.
 
+6b. **Search Console data (real indexing + ranking, every run).** Google Search Console
+   is now connected via the Composio `google_search_console` toolkit. The property is a
+   DOMAIN property — always pass `site_url: "sc-domain:adeptecom.co"`. Load the Composio
+   meta-tools with `ToolSearch` (select `COMPOSIO_SEARCH_TOOLS`, `COMPOSIO_GET_TOOL_SCHEMAS`,
+   `COMPOSIO_MULTI_EXECUTE_TOOL`) if they aren't already available, then — best-effort,
+   NEVER fail the run if GSC is unreachable or the connection is inactive:
+   - `GOOGLE_SEARCH_CONSOLE_LIST_SITEMAPS` — confirm `https://adeptecom.co/sitemap.xml`
+     is present with 0 errors; if errors, note them at the top of `seo/rank-log.md`.
+   - `GOOGLE_SEARCH_CONSOLE_SEARCH_ANALYTICS_QUERY` (last 28 days; run once with
+     `dimensions:["query"]` and once with `["page"]`, `row_limit:25`). Append a dated
+     "GSC snapshot" block to `seo/rank-log.md` listing the top ~10 non-brand queries with
+     impressions, clicks, and average position, plus the top pages. When GSC returns rows
+     this is the SOURCE OF TRUTH for the "AEO check"/rank columns — the step-6 WebSearch
+     is only a fallback for terms GSC has no data on yet.
+   - `GOOGLE_SEARCH_CONSOLE_INSPECT_URL` — inspect this run's new post and the previous
+     run's post; record `coverageState` ("Submitted and indexed" vs "URL is unknown to
+     Google") in each post's `rank-log.md` row.
+   - **Prioritise from the data:** if a page already earns impressions for a near-keyword
+     at position ~5–20, make the next post an adjacent/long-tail variant of that winning
+     term (double down on momentum) ahead of a cold backlog keyword; add such variants to
+     `seo/keywords.md` tagged `(gsc <date>)`.
+   - READ-ONLY. There is NO API to "request indexing" for normal pages — never attempt it;
+     that stays a manual human action in the GSC UI.
+
 7. **Directories & citations.** In `seo/directories.md`, mark one directory as the
    "submit next" target for the human team (the routine cannot create accounts/submit forms).
 

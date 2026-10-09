@@ -1,7 +1,20 @@
 # Rank & content log
 
 One row per routine run. Track the target term and check positions periodically in
-Google Search Console (US) once the site is verified.
+Google Search Console (US). **GSC is now connected (2026-10-10) via the Composio
+`google_search_console` toolkit — property `sc-domain:adeptecom.co`.** Follow
+SEO-PLAYBOOK.md step 6b each run to pull real impressions/positions/coverage.
+
+## GSC baseline — 2026-10-10 (sitemap just submitted)
+- Sitemap `https://adeptecom.co/sitemap.xml` submitted (24 URLs). Old 2024 sitemaps
+  (`sitemap-8/14/18.xml`, http) still registered — to be removed manually in GSC.
+- Indexing coverage (URL Inspection, 24/24 checked): **2 indexed** — `/` and
+  `/service-ai-research.html`; **22 "URL is unknown to Google"** (not yet discovered).
+- Search analytics (28d): impressions almost entirely brand terms ("adeptecom",
+  pos ~1.5); no meaningful non-brand TikTok-Shop keyword visibility yet. Expected for a
+  young domain whose content was undiscovered until the sitemap submission.
+- Legacy 301s added: `/our-blogs/`→`/blog/`, `/contact-us/`→`/#contact`,
+  `/case-studies/`→`/#results`.
 
 The "AEO check" column is a live WebSearch spot-check (not full Search Console data)
 for whether adeptecom.co appears anywhere in the US organic results for the target
