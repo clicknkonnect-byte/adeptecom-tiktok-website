@@ -100,6 +100,11 @@ they're evaluating who to hire, and then actually sending an inquiry via
    people actually ask AI assistants.
 
 4. **Update the blog index** (`blog/index.html`) — add the new post as the first card.
+   Also update the **"Latest guides" section on `index.html`** (id `guides`): add the new
+   post as the first card there and remove the oldest so it keeps the 6 most-recent posts,
+   each linking directly with a `blog/<slug>.html` href. This gives every post a direct
+   internal link from the homepage (the strongest page), which helps Google discover and
+   index it faster.
 
 5. **Technical / on-page SEO.**
    - Add the new post to `sitemap.xml` (loc, `<lastmod>` = today, changefreq monthly, priority 0.6).
