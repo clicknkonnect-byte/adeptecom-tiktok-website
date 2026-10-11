@@ -92,6 +92,8 @@ they're evaluating who to hire, and then actually sending an inquiry via
    - Set `datePublished`/`dateModified` to today (UTC).
    - Keep the Google Analytics tag (`gtag.js`, id `G-613QQWG97C`) in `<head>` right after the
      viewport meta — every page on the site MUST include this exact tag (it's in the seed skeleton).
+   - Keep the footer social row (LinkedIn + Facebook) and the Organization JSON-LD with
+     `sameAs` (LinkedIn + Facebook) — both are in the seed skeleton, so copying it preserves them.
 
 3. **AEO / LLM optimization.** Make the post answer-first: a crisp 1–2 sentence answer
    directly under each H2 question, clear entity naming ("Adeptecom", "TikTok Shop"),
