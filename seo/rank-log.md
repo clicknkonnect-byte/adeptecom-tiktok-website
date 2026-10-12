@@ -38,6 +38,27 @@ SEO-PLAYBOOK.md step 6b each run to pull real impressions/positions/coverage.
   momentum rule) — keep working the Q4 priority-override list top-down; re-check once
   the new sitemap finishes processing and the legacy sitemaps are cleaned up.
 
+## GSC snapshot — 2026-10-12
+- Sitemap `https://adeptecom.co/sitemap.xml`: 0 errors, 0 warnings, 24 submitted / **0 indexed**
+  (still not pending, last downloaded 2026-10-11). Legacy `http://` sitemap index + 3 legacy
+  `sitemap-8/14/18.xml` entries remain registered from 2024 (still `isPending: true` or stale) —
+  still needs manual removal in the GSC UI, per the 2026-10-10 baseline note.
+- Search analytics (28d, `dimensions:["query"]`): impressions are still almost entirely
+  brand-term typos/variants ("adept", "adecom", "adeptt"…) and unrelated generic queries
+  ("amazon agency", "law firms", "ecommerce service provider"). Clicks (5) are on "adeptecom"
+  only, position ~1.5. **No TikTok Shop non-brand keyword has any impressions yet.**
+- Search analytics (28d, `dimensions:["page"]`): only `/` (http + https variants) and a few
+  anchor sections, `/blog/index.html` (3 impressions), `/service-ai-research.html` (4
+  impressions), and the legacy `/our-blogs/` redirect show impressions. **Still no individual
+  blog post URL has impressions.**
+- URL Inspection on this run's new post (`questions-to-ask-before-hiring-a-tiktok-shop-agency.html`)
+  and the previous run's post (`tiktok-shop-marketing-agency-for-startups.html`): both
+  **"URL is unknown to Google"** — expected, same-day/recent publish lag.
+- Takeaway: no GSC rows yet for any TikTok Shop non-brand term, so step 6b's "double down on a
+  winning near-keyword" rule still doesn't apply — keep working the Q4 priority-override list
+  top-down. The sitemap showing 0/24 indexed (vs. 2/24 at the 10-10 baseline) is a regression
+  worth a human look if it persists past the next couple of runs.
+
 The "AEO check" column is a live WebSearch spot-check (not full Search Console data)
 for whether adeptecom.co appears anywhere in the US organic results for the target
 keyword — see SEO-PLAYBOOK.md "AEO / LLM citation tracking". `not checked yet` means
@@ -51,8 +72,8 @@ the routine hasn't run that check for this row yet; it doesn't mean "not cited."
 | 2026-08-24 | tiktok-shop-affiliate-program-setup | tiktok shop affiliate program setup | not cited (2026-10-09) | Live WebSearch for "tiktok shop affiliate program setup adeptecom" surfaced no mention of Adeptecom at all — results were generic TikTok affiliate setup guides and third-party agencies. |
 | 2026-08-31 | how-to-get-creators-for-tiktok-shop | how to get creators for tiktok shop | not cited (2026-10-09) | Live WebSearch for "how to get creators for tiktok shop adeptecom" surfaced no mention of Adeptecom — results were generic creator-sourcing guides (Helium 10 playbook, TikTok Seller Center docs). |
 | 2026-09-03 | tiktok-spark-ads-agency | tiktok spark ads agency | not cited (2026-10-09) | Live WebSearch for "tiktok spark ads agency adeptecom" surfaced no mention of Adeptecom — agency roundups named Ubiquitous, House of Marketers, and Influencer Marketing Factory instead. |
-| 2026-09-07 | tiktok-shop-gmv-max-explained | tiktok shop gmv max explained | not checked yet | |
-| 2026-09-10 | tiktok-shop-listing-optimization | tiktok shop listing optimization | not checked yet | |
+| 2026-09-07 | tiktok-shop-gmv-max-explained | tiktok shop gmv max explained | not cited (2026-10-12) | Live WebSearch for "tiktok shop gmv max explained adeptecom" surfaced only TikTok's own help docs and other publishers (Influencer Marketing Hub, Conjura, MapMyChannel) — no adeptecom.co citation yet. |
+| 2026-09-10 | tiktok-shop-listing-optimization | tiktok shop listing optimization | not cited (2026-10-12) | Live WebSearch for "tiktok shop listing optimization adeptecom" surfaced only generic listing-optimization guides (Graas, Avenuez, Printify, Racklify) — no adeptecom.co citation yet. |
 | 2026-09-14 | why-is-my-tiktok-shop-listing-rejected | why is my tiktok shop listing rejected | not checked yet | |
 | 2026-09-17 | tiktok-live-selling-strategy | tiktok live selling strategy | not checked yet | |
 | 2026-09-21 | tiktok-shop-compliance-requirements-usa | tiktok shop compliance requirements usa | not checked yet | |
@@ -62,3 +83,4 @@ the routine hasn't run that check for this row yet; it doesn't mean "not cited."
 | 2026-10-09 | tiktok-shop-vs-amazon-for-brands | tiktok shop vs amazon for brands | not checked yet | |
 | 2026-10-09 | best-tiktok-shop-agency-for-ecommerce-brands | best tiktok shop agency for ecommerce brands | not checked yet | Q4 lead-gen push: second post published same day (commercial/bottom-funnel intent prioritized ahead of schedule — see SEO-PLAYBOOK.md Q4 note). |
 | 2026-10-09 | tiktok-shop-marketing-agency-for-startups | tiktok shop marketing agency for startups | not checked yet | Q4 priority-override list item #1 (commercial/bottom-funnel intent) — third post published this cycle; routine fires more often this quarter per SEO-PLAYBOOK.md Q4 directive. |
+| 2026-10-12 | questions-to-ask-before-hiring-a-tiktok-shop-agency | questions to ask before hiring a tiktok shop agency | not checked yet | Q4 priority-override list item #2 (commercial/bottom-funnel intent). |

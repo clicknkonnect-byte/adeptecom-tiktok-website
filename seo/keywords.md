@@ -12,7 +12,7 @@ marked `done` in the main table below — this is a reprioritization, not a
 separate backlog. See SEO-PLAYBOOK.md for the full Q4 directive.
 
 1. #25 tiktok shop marketing agency for startups (commercial) — done 2026-10-09
-2. #27 questions to ask before hiring a tiktok shop agency (commercial)
+2. #27 questions to ask before hiring a tiktok shop agency (commercial) — done 2026-10-12
 3. #31 tiktok shop agency retainer vs commission pricing (commercial)
 4. #32 tiktok shop agency flat fee vs percentage of gmv (commercial)
 5. #35 tiktok shop partner (tsp) vs independent agency cost (commercial)
@@ -50,7 +50,7 @@ remaining informational rows.
 | 24 | tiktok shop content brief for creators | informational | todo |
 | 25 | tiktok shop marketing agency for startups | commercial | done 2026-10-09 |
 | 26 | what is a tiktok shop partner (tsp) | informational | todo |
-| 27 | questions to ask before hiring a tiktok shop agency | commercial | todo |
+| 27 | questions to ask before hiring a tiktok shop agency | commercial | done 2026-10-12 |
 | 28 | tiktok shop live selling for supplement brands | informational | todo |
 | 29 | tiktok shop kpis and reporting agencies should track | informational | todo |
 | 30 | tiktok shop creator content velocity strategy | informational | todo |

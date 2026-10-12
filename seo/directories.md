@@ -5,7 +5,7 @@ submit (bot-detection & login required, per Adeptecom policy).
 
 | Directory | URL | Value | Status |
 |---|---|---|---|
-| Google Business Profile | https://business.google.com | HIGH (local + maps + AI) | todo |
+| Google Business Profile | https://business.google.com | HIGH (local + maps + AI) | submit next |
 | Bing Places | https://www.bingplaces.com | HIGH | todo |
 | Clutch (agencies) | https://clutch.co | HIGH (B2B) | todo |
 | The Manifest | https://themanifest.com | MED | todo |
@@ -16,7 +16,7 @@ submit (bot-detection & login required, per Adeptecom policy).
 | Trustpilot | https://business.trustpilot.com | HIGH (reviews + rich results) | todo |
 | LinkedIn Company Page | https://www.linkedin.com/company | HIGH | todo |
 | Crunchbase | https://www.crunchbase.com | MED | todo |
-| TikTok Shop Partner directory | https://partner.tiktokshop.com | HIGH (category authority) | submit next |
+| TikTok Shop Partner directory | https://partner.tiktokshop.com | HIGH (category authority) | todo |
 
 Notes: consistent NAP (Name, Address, Phone) across all: Adeptecom, 343 Paseo Nuevo St,
 Sacramento, CA 95838, USA. Use adnan@adeptecom.co and the WhatsApp number.
