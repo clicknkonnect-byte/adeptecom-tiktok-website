@@ -92,6 +92,7 @@ they're evaluating who to hire, and then actually sending an inquiry via
    - Set `datePublished`/`dateModified` to today (UTC).
    - Keep the Google Analytics tag (`gtag.js`, id `G-613QQWG97C`) in `<head>` right after the
      viewport meta — every page on the site MUST include this exact tag (it's in the seed skeleton).
+   - Keep the author byline (in the seed skeleton) and the `Person` Article author — see below.
    - Keep the footer social row (LinkedIn + Facebook) and the Organization JSON-LD with
      `sameAs` (LinkedIn + Facebook) — both are in the seed skeleton, so copying it preserves them.
 
