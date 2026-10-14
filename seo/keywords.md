@@ -14,7 +14,7 @@ separate backlog. See SEO-PLAYBOOK.md for the full Q4 directive.
 1. #25 tiktok shop marketing agency for startups (commercial) — done 2026-10-09
 2. #27 questions to ask before hiring a tiktok shop agency (commercial) — done 2026-10-12
 3. #31 tiktok shop agency retainer vs commission pricing (commercial) — done 2026-10-13
-4. #32 tiktok shop agency flat fee vs percentage of gmv (commercial)
+4. #32 tiktok shop agency flat fee vs percentage of gmv (commercial) — done 2026-10-14
 5. #35 tiktok shop partner (tsp) vs independent agency cost (commercial)
 6. #36 tiktok shop for amazon sellers expansion strategy (commercial)
 7. #38 is tiktok shop worth it for established amazon brands (commercial)
@@ -63,7 +63,7 @@ model, reporting cadence) and confirmed 2026 category trends (content
 velocity over ad spend; LIVE selling especially strong in supplements).
 
 | 31 | tiktok shop agency retainer vs commission pricing | commercial | done 2026-10-13 |
-| 32 | tiktok shop agency flat fee vs percentage of gmv | commercial | todo |
+| 32 | tiktok shop agency flat fee vs percentage of gmv | commercial | done 2026-10-14 |
 | 33 | what is included in tiktok shop management retainer | informational | todo |
 | 34 | tiktok shop ad spend budget for new sellers | informational | todo |
 | 35 | tiktok shop partner (tsp) vs independent agency cost | commercial | todo |
