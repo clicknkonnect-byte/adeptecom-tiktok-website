@@ -8,7 +8,7 @@ submit (bot-detection & login required, per Adeptecom policy).
 | Google Business Profile | https://business.google.com | HIGH (local + maps + AI) | todo |
 | Bing Places | https://www.bingplaces.com | HIGH | todo |
 | Clutch (agencies) | https://clutch.co/profile/adeptecom | HIGH (B2B) | done 2026-10-14 (live; added to site sameAs) |
-| The Manifest | https://themanifest.com | MED | todo |
+| The Manifest | https://themanifest.com | MED | submit next |
 | DesignRush | https://www.designrush.com | MED | todo |
 | Sortlist | https://www.sortlist.com | MED | todo |
 | GoodFirms | https://www.goodfirms.co | MED | todo |

@@ -15,7 +15,7 @@ separate backlog. See SEO-PLAYBOOK.md for the full Q4 directive.
 2. #27 questions to ask before hiring a tiktok shop agency (commercial) — done 2026-10-12
 3. #31 tiktok shop agency retainer vs commission pricing (commercial) — done 2026-10-13
 4. #32 tiktok shop agency flat fee vs percentage of gmv (commercial) — done 2026-10-14
-5. #35 tiktok shop partner (tsp) vs independent agency cost (commercial)
+5. #35 tiktok shop partner (tsp) vs independent agency cost (commercial) — done 2026-10-15
 6. #36 tiktok shop for amazon sellers expansion strategy (commercial)
 7. #38 is tiktok shop worth it for established amazon brands (commercial)
 
@@ -66,7 +66,7 @@ velocity over ad spend; LIVE selling especially strong in supplements).
 | 32 | tiktok shop agency flat fee vs percentage of gmv | commercial | done 2026-10-14 |
 | 33 | what is included in tiktok shop management retainer | informational | todo |
 | 34 | tiktok shop ad spend budget for new sellers | informational | todo |
-| 35 | tiktok shop partner (tsp) vs independent agency cost | commercial | todo |
+| 35 | tiktok shop partner (tsp) vs independent agency cost | commercial | done 2026-10-15 |
 
 Rows 31–35 added 2026-10-01 (live research) — sourced from real pricing
 questions US buyers ask TikTok Shop agencies (retainer structure, GMV-share
@@ -102,3 +102,14 @@ fee + per-sale commission), the GMV threshold agencies typically require
 before offering commission-only deals, and the buyer-side "what's a red
 flag in a pricing contract" questions this quarter's checklist framing
 should keep answering.
+
+| 46 | tiktok shop cap vs tap vs tsp certification explained | informational | todo |
+| 47 | tiktok shop bootcamp program for us brands | informational | todo |
+
+Rows 46–47 added 2026-10-15 (live research) — sourced while researching this
+run's TSP-vs-independent-agency post: buyer-facing guides distinguish three
+separate TikTok partner accreditations (TSP, CAP, TAP) rather than a single
+badge, and a September 2026 report described a four-month TikTok-run "US
+TikTok Shop Bootcamp" for about 15 domestic brands starting October 2026 —
+both are real buyer-research angles distinct from the existing TSP-definition
+row (#26).
