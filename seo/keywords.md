@@ -16,7 +16,7 @@ separate backlog. See SEO-PLAYBOOK.md for the full Q4 directive.
 3. #31 tiktok shop agency retainer vs commission pricing (commercial) — done 2026-10-13
 4. #32 tiktok shop agency flat fee vs percentage of gmv (commercial) — done 2026-10-14
 5. #35 tiktok shop partner (tsp) vs independent agency cost (commercial) — done 2026-10-15
-6. #36 tiktok shop for amazon sellers expansion strategy (commercial)
+6. #36 tiktok shop for amazon sellers expansion strategy (commercial) — done 2026-10-16
 7. #38 is tiktok shop worth it for established amazon brands (commercial)
 
 After row 7 above is done, fall back to plain top-down order over the
@@ -74,7 +74,7 @@ vs. flat fee, what's bundled vs. add-on) and 2026 category data (US GMV
 grew 103% YoY to $11.8B in H1 2026; Shop tab now drives the majority of US
 GMV) used to ground this run's cost-guide post.
 
-| 36 | tiktok shop for amazon sellers expansion strategy | commercial | todo |
+| 36 | tiktok shop for amazon sellers expansion strategy | commercial | done 2026-10-16 |
 | 37 | tiktok shop and amazon dual-funnel strategy | informational | todo |
 | 38 | is tiktok shop worth it for established amazon brands | commercial | todo |
 | 39 | tiktok shop content velocity vs amazon seo | informational | todo |
@@ -113,3 +113,20 @@ badge, and a September 2026 report described a four-month TikTok-run "US
 TikTok Shop Bootcamp" for about 15 domestic brands starting October 2026 —
 both are real buyer-research angles distinct from the existing TSP-definition
 row (#26).
+
+| 48 | which amazon products to launch on tiktok shop first | informational | todo |
+| 49 | tiktok shop customer acquisition cost vs amazon | informational | todo |
+| 50 | tiktok to amazon funnel | informational | todo (gsc 2026-10-16) |
+
+Rows 48–49 added 2026-10-16 (live research) — sourced while researching this
+run's Amazon-sellers-expansion post: vendor guides (Helium10, SalesDuo)
+converge on a product-selection filter (visually demonstrable, $15-50 range,
+already converting on Amazon) before porting SKUs, and separately argue that
+TikTok Shop's lower referral fee is offset by content/creator costs, so
+customer acquisition cost — not the headline fee — is the real channel
+comparison. Row 50 is a live buyer-search phrase ("tiktok to amazon funnel")
+that GSC's query+page drilldown surfaced for the existing
+`tiktok-shop-vs-amazon-for-brands.html` post this run (1 impression, position
+23) — see seo/rank-log.md GSC snapshot 2026-10-16 — distinct from the
+existing row #37 "dual-funnel strategy" framing (this is the exact buyer
+phrasing, not our own framing of the concept).
