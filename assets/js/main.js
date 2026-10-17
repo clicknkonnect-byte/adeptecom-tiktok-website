@@ -39,10 +39,16 @@
   }else{counters.forEach(function(el){el.textContent=(el.getAttribute('data-prefix')||'')+el.getAttribute('data-count')+(el.getAttribute('data-suffix')||'');});}
 
   var p=new URLSearchParams(location.search);
-  if(p.get('sent')==='1'){var ok=document.getElementById('okmsg');if(ok){ok.style.display='block';ok.scrollIntoView({behavior:'smooth',block:'center'});}}
+  if(p.get('sent')==='1'){var ok=document.getElementById('okmsg');if(ok){ok.style.display='block';ok.scrollIntoView({behavior:'smooth',block:'center'});}
+    // GA4 lead conversion (fires once per session so a refresh doesn't double-count)
+    try{if(typeof gtag==='function'&&!sessionStorage.getItem('lead_sent')){gtag('event','generate_lead',{event_category:'contact_form',event_label:'quote_request'});sessionStorage.setItem('lead_sent','1');}}catch(e){}}
   if(p.get('error')==='1'){var er=document.getElementById('errmsg');if(er){er.style.display='block';}}
 
   var y=document.getElementById('yr'); if(y) y.textContent=new Date().getFullYear();
+
+  // GA4 lead signal: any WhatsApp click (float button, hero/CTA links)
+  document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href*="wa.me"]'):null;
+    if(a&&typeof gtag==='function'){try{gtag('event','contact_whatsapp',{event_category:'lead',event_label:'whatsapp_click'});}catch(err){}}},{passive:true});
 
   // rotating headline word
   var rw=document.querySelector('.rot-word');
