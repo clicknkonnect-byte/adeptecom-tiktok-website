@@ -17,10 +17,10 @@ separate backlog. See SEO-PLAYBOOK.md for the full Q4 directive.
 4. #32 tiktok shop agency flat fee vs percentage of gmv (commercial) — done 2026-10-14
 5. #35 tiktok shop partner (tsp) vs independent agency cost (commercial) — done 2026-10-15
 6. #36 tiktok shop for amazon sellers expansion strategy (commercial) — done 2026-10-16
-7. #38 is tiktok shop worth it for established amazon brands (commercial)
+7. #38 is tiktok shop worth it for established amazon brands (commercial) — done 2026-10-19
 
-After row 7 above is done, fall back to plain top-down order over the
-remaining informational rows.
+All Q4 priority-override rows are now done. Fall back to plain top-down order
+over the remaining informational rows starting next run.
 
 | # | Primary keyword | Intent | Status |
 |---|---|---|---|
@@ -76,7 +76,7 @@ GMV) used to ground this run's cost-guide post.
 
 | 36 | tiktok shop for amazon sellers expansion strategy | commercial | done 2026-10-16 |
 | 37 | tiktok shop and amazon dual-funnel strategy | informational | todo |
-| 38 | is tiktok shop worth it for established amazon brands | commercial | todo |
+| 38 | is tiktok shop worth it for established amazon brands | commercial | done 2026-10-19 |
 | 39 | tiktok shop content velocity vs amazon seo | informational | todo |
 | 40 | tiktok shop seller fees vs amazon referral fees | informational | todo |
 
@@ -130,3 +130,18 @@ that GSC's query+page drilldown surfaced for the existing
 23) — see seo/rank-log.md GSC snapshot 2026-10-16 — distinct from the
 existing row #37 "dual-funnel strategy" framing (this is the exact buyer
 phrasing, not our own framing of the concept).
+
+| 51 | can i name my tiktok shop buyer content angle and order owner | informational | todo |
+| 52 | tiktok shop content budget for amazon brands per month | informational | todo |
+| 53 | tiktok shop 90 day pilot plan for established brands | commercial | todo |
+
+Rows 51–53 added 2026-10-19 (live research) — sourced while researching this
+run's "is it worth it for established Amazon brands" post: a channel-
+consulting source frames the real pre-launch test as naming the buyer,
+content angle, and who owns TikTok order handling before committing budget;
+vendor estimates put a serious TikTok Shop content operation at
+roughly $15,000–$30,000/month (20–40 pieces/week) — useful for grounding a
+future "what does TikTok Shop content actually cost" post; and the
+90-day-pilot framing used in this run's post (test 1–3 hero SKUs with
+separate tracking before scaling) is a distinct commercial angle worth its
+own future post once this cluster's existing posts show GSC movement.
