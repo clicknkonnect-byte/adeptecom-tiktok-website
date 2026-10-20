@@ -39,7 +39,7 @@ over the remaining informational rows starting next run.
 | 13 | tiktok shop for supplement brands usa | commercial | done 2026-09-28 |
 | 14 | how much does a tiktok shop agency cost | commercial | done 2026-10-01 |
 | 15 | tiktok shop vs amazon for brands | informational | done 2026-10-09 |
-| 16 | tiktok shop creator affiliate commission rates | informational | todo |
+| 16 | tiktok shop creator affiliate commission rates | informational | done 2026-10-20 |
 | 17 | how to scale tiktok shop sales | informational | todo |
 | 18 | tiktok shop seller onboarding usa | informational | todo |
 | 19 | best tiktok shop agency for ecommerce brands | commercial | done 2026-10-09 |
@@ -145,3 +145,24 @@ future "what does TikTok Shop content actually cost" post; and the
 90-day-pilot framing used in this run's post (test 1–3 hero SKUs with
 separate tracking before scaling) is a distinct commercial angle worth its
 own future post once this cluster's existing posts show GSC movement.
+
+| 54 | tiktok shop open vs targeted collaboration explained | informational | todo |
+| 55 | how tiktok shop clawbacks work on returned orders | informational | todo |
+| 56 | tiktok shop referral fee vs affiliate commission usa | informational | todo |
+| 57 | tiktok shop commission rate by category 2026 | informational | todo |
+| 58 | tiktok shop hybrid retainer plus commission for creators | commercial | todo |
+
+Rows 54–58 added 2026-10-20 (live research) — sourced while researching this
+run's creator-commission-rates post: buyer-facing guides distinguish open
+collaboration (one default rate, broadly available) from targeted
+collaboration (invite-only, negotiated, typically higher) as a recurring
+point of confusion; multiple sources flag that commission is paid on
+delivered orders only and clawed back on returns/cancellations, which
+sellers are often surprised by; the platform referral fee (reported as
+6-8% depending on source) is frequently conflated with the affiliate
+commission sellers set themselves; category-level commission benchmarks
+(electronics ~5-10%, apparel ~10-20%, beauty/supplements ~15-30%) keep
+showing up across vendor guides as a distinct lookup query; and several
+sources describe a seller trend toward hybrid deals (small flat fee plus
+a lower commission) once a product has sales history, as a durable
+alternative to commission-only.
