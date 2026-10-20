@@ -120,6 +120,14 @@ they're evaluating who to hire, and then actually sending an inquiry via
     below), and the contact path. This is read by AI crawlers/assistants and
     is a direct AEO lever — update it the same run you change pricing,
     services, or add a page that should be surfaced to an AI assistant.
+    **Format is mandatory (llmstxt.org spec — Lighthouse's "Agentic browsing" audit
+    checks it):** line 1 is a single `# Adeptecom` H1; then one `>` blockquote summary;
+    then plain paragraphs only (NO headings) for positioning and the verified facts;
+    then H2 sections (`## Services`, `## Company`, `## Guides`, `## Optional`) whose
+    content is ONLY markdown link lists in the form `- [Title](https://absolute-url): short
+    description`. Never use bare URLs, `Name — url`, or prose bullets inside an H2 section.
+    When you add a post worth surfacing to AI assistants, add it as a link line under
+    `## Guides`; keep secondary links under `## Optional`. Do not add any other headings.
 
 6. **AEO / LLM citation tracking (WebSearch, every run).** Pick 1–2 previously
    published posts from `seo/rank-log.md` whose "AEO check" column says
