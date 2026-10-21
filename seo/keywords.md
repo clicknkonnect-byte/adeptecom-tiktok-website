@@ -40,7 +40,7 @@ over the remaining informational rows starting next run.
 | 14 | how much does a tiktok shop agency cost | commercial | done 2026-10-01 |
 | 15 | tiktok shop vs amazon for brands | informational | done 2026-10-09 |
 | 16 | tiktok shop creator affiliate commission rates | informational | done 2026-10-20 |
-| 17 | how to scale tiktok shop sales | informational | todo |
+| 17 | how to scale tiktok shop sales | informational | done 2026-10-21 |
 | 18 | tiktok shop seller onboarding usa | informational | todo |
 | 19 | best tiktok shop agency for ecommerce brands | commercial | done 2026-10-09 |
 | 20 | tiktok shop product seeding strategy | informational | todo |
@@ -166,3 +166,16 @@ showing up across vendor guides as a distinct lookup query; and several
 sources describe a seller trend toward hybrid deals (small flat fee plus
 a lower commission) once a product has sales history, as a durable
 alternative to commission-only.
+
+| 59 | tiktok shop demand engine strategy for dtc brands | informational | todo |
+| 60 | how many creators do i need for tiktok shop | informational | todo |
+| 61 | tiktok shop profit margin after creator commission and ad spend | informational | todo |
+
+Rows 59-61 added 2026-10-21 (live research) — sourced while researching this
+run's "how to scale tiktok shop sales" post: EMARKETER's framing of treating
+TikTok Shop as a demand engine that also lifts Amazon/D2C/retail rather than
+a standalone channel; a recurring buyer question about how many creators to
+activate before reinvesting in winners (10-50 in most vendor guides); and the
+gap between headline GMV and actual seller profit once commission, samples,
+shipping, returns, and ad spend are netted out, which several sources flag as
+the real scaling bottleneck once a shop passes its first hero SKU.
