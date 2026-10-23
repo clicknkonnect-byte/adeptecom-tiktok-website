@@ -51,6 +51,49 @@ they're evaluating who to hire, and then actually sending an inquiry via
   below asked for — it doesn't need to be re-justified every run, just
   followed, and revisited if the owner says to dial back.
 
+## Run type by weekday (set 2026-10-23, owner-approved) — CHECK THIS FIRST
+
+GSC data (Oct 2026) showed the site's pages ranking at positions 20–80 for buyer
+terms, with several posts already sitting at positions 3–25. Moving existing pages up
+now earns more leads than adding new pages. So the weekly mix is **2 new posts + 3
+refreshes**. Decide the run type from today's weekday in **UTC** (`date -u +%u`):
+
+- **Tue (2) / Thu (4) → NEW-POST run.** Do steps 0–10 below exactly as written.
+- **Mon (1) / Wed (3) / Fri (5) → REFRESH run.** Do NOT publish a new post. Instead:
+  1. Pull GSC page×query data (last 28 days, `dimensions:["page","query"]`,
+     `row_limit:250`, `sc-domain:adeptecom.co`) per step 6b. If GSC is unreachable,
+     fall back to the oldest `dateModified` post in `/blog/`.
+  2. Pick ONE page to improve. Prefer a page with a query at **position 4–25 and the
+     most impressions**. Skip any page refreshed in the last 14 days (see the refresh
+     log in `seo/rank-log.md`). Never pick a page for a query whose intent you can't
+     serve truthfully, such as ad-account resale or unrelated niches.
+  3. Improve it for that query. Rewrite the `<title>` and meta description to put the
+     exact query near the front and give a reason to click; keep the title ≤ 65 characters
+     before ` | Adeptecom` where possible. Add or expand ONE answer-first H2 section
+     (150–300 words) that directly answers the query, then renumber the following
+     numbered H2s. Add one matching FAQ Q&A to both the HTML and the `FAQPage` JSON-LD.
+     Add 1–2 internal links to the matching service page using the exact service names
+     below. Update the Article `description` to match the new meta.
+  4. Bump the Article `dateModified`, the hero line `Guide · <published> · updated
+     <today>`, and that URL's `<lastmod>` in `sitemap.xml` to today.
+  5. Append a row to the "Refresh log" table in `seo/rank-log.md`: date, page, target
+     query, position/impressions before, and what changed.
+  6. Still do steps 5a (if anything changed that llms.txt describes), 6, 6b, and 7.
+  7. Commit `SEO refresh: <page> for "<query>" (<date>)` and push.
+- **Sat/Sun:** the trigger doesn't fire. If a human runs it manually on a weekend,
+  treat it as a REFRESH run.
+
+**Service page names (use as exact anchor text when linking):**
+`../index.html` = TikTok Shop agency for US brands · `../service-creators.html` = TikTok
+Shop affiliate agency · `../service-ads.html` = TikTok Shop ads agency (Spark Ads & GMV
+Max) · `../service-live.html` = TikTok LIVE shopping agency · `../service-setup.html` =
+TikTok Shop setup services · `../service-listings.html` = TikTok Shop listing
+optimization. Don't create new pages that target these head terms; strengthen the
+existing page instead, to avoid cannibalization.
+
+**Lead path = free TikTok Shop audit.** All CTAs say "Get a free audit" or "Get my free
+audit" and link to `../index.html#contact`. Never write "Get a quote".
+
 ## Each run — do ALL of the following, then commit & push to `main`
 
 0. **Live keyword & SERP research (WebSearch, every run).** Don't rely solely on the
@@ -88,6 +131,12 @@ they're evaluating who to hire, and then actually sending an inquiry via
    - Structure: H1 with the keyword; short intro; 4–7 H2 sections; a real FAQ block
      (3+ Q&As) using `<details class="qa">`; a closing CTA band linking to `../index.html#contact`.
    - Internal-link to 2–4 relevant service pages (`../service-*.html`) and 1 related post.
+   - **Mid-post CTA (mandatory):** insert one `<aside class="post-cta" data-cta="<category>">`
+     block immediately before the 3rd `<h2>` inside `<article>`. Copy the markup from the
+     seed post. Match the headline, the one-line pitch, and the secondary link to the post's
+     topic. Valid categories are creators, ads, live, listings, setup, agency, amazon,
+     beauty, supplements, and growth. The button is always `Get my free audit` →
+     `../index.html#contact`.
    - Add JSON-LD: `Article`, `FAQPage`, and `BreadcrumbList` (copy the pattern from the seed post).
    - Set `datePublished`/`dateModified` to today (UTC).
    - Keep the Google Analytics tag (`gtag.js`, id `G-613QQWG97C`) in `<head>` right after the

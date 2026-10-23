@@ -5,6 +5,22 @@ Google Search Console (US). **GSC is now connected (2026-10-10) via the Composio
 `google_search_console` toolkit — property `sc-domain:adeptecom.co`.** Follow
 SEO-PLAYBOOK.md step 6b each run to pull real impressions/positions/coverage.
 
+## Refresh log
+
+One row per refreshed page (REFRESH runs, Mon/Wed/Fri). Skip pages refreshed in the last 14 days.
+
+| Date | Page | Target query | Before (GSC 28d) | Change |
+|---|---|---|---|---|
+| 2026-10-23 | blog/tiktok-shop-for-beauty-brands.html | tiktok shop beauty / beauty product feed for tiktok | pos 17.5 (11 impr) / 32 | title+meta; new H2 on beauty product feed; FAQ |
+| 2026-10-23 | blog/tiktok-shop-vs-amazon-for-brands.html | tiktok to amazon funnel | pos 24 (11 impr) | title+meta; new H2 on TikTok-to-Amazon funnel; FAQ |
+| 2026-10-23 | blog/why-is-my-tiktok-shop-listing-rejected.html | listing rejected missing attributes | pos 17 | title+meta; new H2 on fixing missing attributes; FAQ |
+| 2026-10-23 | blog/tiktok-shop-compliance-requirements-usa.html | tiktok shop listing requirements | pos 58.8 (30 impr) | retitled to listing requirements; new H2; FAQ |
+| 2026-10-23 | blog/tiktok-shop-gmv-max-explained.html | gmv max meaning / gmv meaning tiktok | pos 38 / 44 | title+meta; new H2 on GMV meaning; FAQ |
+| 2026-10-23 | blog/tiktok-shop-affiliate-program-setup.html | tiktok affiliate center | pos 28 | title+meta; new H2 on Affiliate Center; FAQ |
+| 2026-10-23 | blog/tiktok-shop-management-services.html | tiktok shop management | pos 51 (15 impr) | title; homepage link |
+| 2026-10-23 | service-creators/ads/live/setup + index.html | tiktok shop affiliate/ads/live agency, setup services, tiktok shop agency | pos 70–85 (via blog/tiktok-shop-agency-usa) | retargeted titles/H1s, depth sections, FAQ/Service schema; blog post retitled to 'how to choose' + links out |
+| 2026-10-23 | 6 posts (listing-opt, questions, retainer, worth-it, tsp, creators) | CTR | pos 3–6 | title rewrites only |
+
 ## GSC baseline — 2026-10-10 (sitemap just submitted)
 - Sitemap `https://adeptecom.co/sitemap.xml` submitted (24 URLs). Old 2024 sitemaps
   (`sitemap-8/14/18.xml`, http) still registered — to be removed manually in GSC.

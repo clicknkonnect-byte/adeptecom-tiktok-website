@@ -1,6 +1,6 @@
 <?php
 $to      = "adnan@adeptecom.co";
-$subject = "New TikTok Shop enquiry from adeptecom.co";
+$subject = "Free TikTok Shop audit request from adeptecom.co";
 
 if ($_SERVER["REQUEST_METHOD"] !== "POST") { header("Location: index.html"); exit; }
 if (!empty($_POST["company_url"])) { header("Location: index.html?sent=1#contact"); exit; }
@@ -9,7 +9,7 @@ function clean($k){ return isset($_POST[$k]) ? trim(strip_tags($_POST[$k])) : ""
 
 $name=clean("name"); $brand=clean("brand");
 $email=filter_var(clean("email"), FILTER_SANITIZE_EMAIL);
-$whatsapp=clean("whatsapp"); $plan=clean("plan"); $market=clean("market"); $message=clean("message");
+$whatsapp=clean("whatsapp"); $plan=clean("plan"); $market=clean("market"); $message=clean("message"); $shop=clean("shop");
 
 if ($name==="" || $email==="" || $message==="" || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
     header("Location: index.html?error=1#contact"); exit;
@@ -23,6 +23,7 @@ $body .= "Email:     $email\n";
 $body .= "WhatsApp:  $whatsapp\n";
 $body .= "Package:   $plan\n";
 $body .= "Market:    $market\n";
+$body .= "Shop/URL:  $shop\n";
 $body .= "----------------------------------------\n";
 $body .= "Message:\n$message\n";
 

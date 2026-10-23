@@ -41,7 +41,7 @@
   var p=new URLSearchParams(location.search);
   if(p.get('sent')==='1'){var ok=document.getElementById('okmsg');if(ok){ok.style.display='block';ok.scrollIntoView({behavior:'smooth',block:'center'});}
     // GA4 lead conversion (fires once per session so a refresh doesn't double-count)
-    try{if(typeof gtag==='function'&&!sessionStorage.getItem('lead_sent')){gtag('event','generate_lead',{event_category:'contact_form',event_label:'quote_request'});sessionStorage.setItem('lead_sent','1');}}catch(e){}}
+    try{if(typeof gtag==='function'&&!sessionStorage.getItem('lead_sent')){gtag('event','generate_lead',{event_category:'contact_form',event_label:'audit_request'});sessionStorage.setItem('lead_sent','1');}}catch(e){}}
   if(p.get('error')==='1'){var er=document.getElementById('errmsg');if(er){er.style.display='block';}}
 
   var y=document.getElementById('yr'); if(y) y.textContent=new Date().getFullYear();
@@ -154,3 +154,6 @@
       dot.style.transform='translate('+dxp+'px,'+dyp+'px)';requestAnimationFrame(loop);})();
   }
 })();
+/* free-audit CTA clicks */
+document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href$="#contact"]'):null;
+  if(a&&typeof gtag==='function'){try{var c=a.closest('.post-cta');gtag('event','audit_cta_click',{event_category:'lead',event_label:c?('post_'+c.getAttribute('data-cta')):'site_button'});}catch(err){}}},{passive:true});

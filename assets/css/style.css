@@ -649,3 +649,25 @@ ul{margin:0;padding:0;list-style:none}
   color:var(--navy-2);background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 16px;transition:.2s}
 .related a:hover{border-color:var(--orange);color:var(--navy);background:var(--paper);transform:translateY(-1px)}
 .related a svg{width:15px;height:15px;color:var(--blue)}
+
+/* A1-A3: service depth, H1 kicker, free-audit CTAs, trust badges */
+.h-kicker{display:block;font-family:var(--display);font-size:clamp(13px,1.3vw,15px);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-stretch:100%;line-height:1.3;color:var(--orange-soft);margin-bottom:14px}
+.svc-deep h3.h-2{margin:26px 0 10px}
+.svc-deep p,.svc-deep li{color:var(--muted);font-size:16.5px;line-height:1.7}
+.svc-deep ol{padding-left:22px;margin:0 0 6px}.svc-deep li{margin:8px 0}.svc-deep li b{color:var(--navy)}
+.svc-read{margin-top:26px;padding-top:18px;border-top:1px solid var(--line);font-size:15px}
+.svc-read a,.post-hire a{color:var(--blue);font-weight:600}
+.post-hire{background:var(--paper-2);border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:14px;padding:18px 20px;margin:24px 0;font-size:15.5px;line-height:1.7}
+.post-cta{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:var(--navy);color:#fff;border-radius:18px;padding:22px 24px;margin:32px 0}
+.post-cta .pc-txt{flex:1 1 320px}.post-cta b{display:block;font-family:var(--display);font-size:19px;margin-bottom:6px;color:#fff}
+.post-cta p{margin:0;color:rgba(255,255,255,.82);font-size:15px;line-height:1.6}
+.post-cta .pc-act{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.post-cta .pc-link{color:rgba(255,255,255,.86);font-size:14px;text-decoration:underline;text-underline-offset:3px}
+.post-cta .pc-link:hover{color:#fff}
+.trust-badges{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:22px}
+.trust-badges .tb{display:flex;flex-direction:column;gap:2px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:#fff;text-decoration:none}
+.trust-badges .tb b{font-family:var(--display);font-size:16px;color:var(--navy)}
+.trust-badges .tb span{font-size:12.5px;color:var(--muted);line-height:1.35}
+a.tb:hover{border-color:var(--blue)}
+.field .opt{font-weight:400;color:var(--muted)}
+@media (max-width:560px){.trust-badges{grid-template-columns:1fr}.post-cta{padding:20px}}
