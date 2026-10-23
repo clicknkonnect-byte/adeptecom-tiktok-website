@@ -41,7 +41,7 @@ over the remaining informational rows starting next run.
 | 15 | tiktok shop vs amazon for brands | informational | done 2026-10-09 |
 | 16 | tiktok shop creator affiliate commission rates | informational | done 2026-10-20 |
 | 17 | how to scale tiktok shop sales | informational | done 2026-10-21 |
-| 18 | tiktok shop seller onboarding usa | informational | todo |
+| 18 | tiktok shop seller onboarding usa | informational | done 2026-10-23 |
 | 19 | best tiktok shop agency for ecommerce brands | commercial | done 2026-10-09 |
 | 20 | tiktok shop product seeding strategy | informational | todo |
 | 21 | tiktok shop ai automation | informational | todo |
@@ -179,3 +179,19 @@ activate before reinvesting in winners (10-50 in most vendor guides); and the
 gap between headline GMV and actual seller profit once commission, samples,
 shipping, returns, and ad spend are netted out, which several sources flag as
 the real scaling bottleneck once a shop passes its first hero SKU.
+
+| 62 | tiktok shop individual vs business seller account usa | informational | todo |
+| 63 | tiktok shop business verification documents checklist | informational | todo |
+| 64 | tiktok acceptable documents for business verification | informational | todo (gsc 2026-10-23) |
+
+Rows 62-63 added 2026-10-23 (live research) — sourced while researching this
+run's seller-onboarding post: vendor guides consistently frame the first
+onboarding decision as individual vs. registered-business account (different
+document sets, and switching later is friction), and "what exact documents
+will TikTok actually accept" is a distinct, narrower buyer question from the
+general "verification requirements" framing already covered by row #11. Row
+64 is a live buyer-search phrase ("tiktok acceptable documents for business
+verification last updated june 2026") that GSC's query drilldown surfaced
+this run (1 impression, position ~36) — see seo/rank-log.md GSC snapshot
+2026-10-23 — distinct exact buyer phrasing worth its own future long-tail
+coverage once this run's onboarding post shows movement.
