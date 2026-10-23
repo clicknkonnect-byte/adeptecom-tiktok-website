@@ -5,6 +5,20 @@ Google Search Console (US). **GSC is now connected (2026-10-10) via the Composio
 `google_search_console` toolkit — property `sc-domain:adeptecom.co`.** Follow
 SEO-PLAYBOOK.md step 6b each run to pull real impressions/positions/coverage.
 
+## GA4 snapshot — 2026-10-23 (first pull, last 28 days, property 555389766)
+
+| Channel | Sessions | Engaged |
+|---|---|---|
+| Direct | 95 | 34 |
+| Organic Search (google 12, bing 1, search.google.com 8) | 21 | 15 |
+| Organic Social (LinkedIn 11, Facebook 2, IG 1) | 14 | 10 |
+| AI Assistant (chatgpt.com) | 5 | 5 |
+
+- Lead events: generate_lead 0, contact_whatsapp 0, form_start 1. No form submission recorded yet.
+- ChatGPT visitors landed on `/` and `/service-creators.html`. All of them engaged. ChatGPT already cites the site.
+- Top countries: Pakistan 46 (mostly own/team visits), US 41, Poland 12.
+- Peak day: 2026-10-16, with 25 sessions.
+
 ## Refresh log
 
 One row per refreshed page (REFRESH runs, Mon/Wed/Fri). Skip pages refreshed in the last 14 days.

@@ -213,6 +213,19 @@ audit" and link to `../index.html#contact`. Never write "Get a quote".
    - READ-ONLY. There is NO API to "request indexing" for normal pages — never attempt it;
      that stays a manual human action in the GSC UI.
 
+6c. **Google Analytics 4 (leads + AI-assistant traffic, every run, best-effort).** GA4 is
+   connected via the Composio `google_analytics` toolkit (alias "adeptecom"). Property:
+   `properties/555389766` ("Adeptecom.co", stream G-613QQWG97C). Do NOT use the
+   "Adeptecom.com" property; that is a different site. Run one
+   `GOOGLE_ANALYTICS_BATCH_RUN_REPORTS` call (last 28 days) with these reports:
+   sessions by `sessionDefaultChannelGroup`; `eventCount` by `eventName`, which should show
+   generate_lead, contact_whatsapp, and audit_cta_click; sessions by `landingPage` for
+   `sessionSource` = chatgpt.com, perplexity.ai, gemini.google.com, and copilot.microsoft.com.
+   Append a short dated "GA4 snapshot" block to `seo/rank-log.md`. Include organic sessions,
+   AI-assistant sessions, and the pages they landed on. Include lead events, using the real
+   counts or 0. A page that AI assistants already send visitors to is a top candidate for a
+   refresh run. Read-only. Never fail the run if GA is unreachable.
+
 7. **Directories & citations.** In `seo/directories.md`, mark one directory as the
    "submit next" target for the human team (the routine cannot create accounts/submit forms).
 
