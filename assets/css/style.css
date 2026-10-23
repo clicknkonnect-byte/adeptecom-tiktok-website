@@ -561,7 +561,7 @@ ul{margin:0;padding:0;list-style:none}
 .logo-chip{flex:0 0 auto;height:84px;min-width:172px;padding:0 26px;display:grid;place-items:center;text-align:center;
   background:var(--paper);border:1px solid var(--line);border-radius:16px;
   font-family:var(--display);font-weight:800;font-stretch:105%;font-size:18px;letter-spacing:.01em;
-  color:#8494a4;filter:grayscale(1);transition:color .3s,filter .3s,box-shadow .3s,background .3s}
+  color:#5B6E80;filter:grayscale(1);transition:color .3s,filter .3s,box-shadow .3s,background .3s}
 .logo-chip:hover{color:var(--navy);filter:none;background:#fff;box-shadow:var(--shadow-soft)}
 
 /* reviews carousel */
