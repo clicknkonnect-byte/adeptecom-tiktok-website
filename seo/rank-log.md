@@ -5,6 +5,20 @@ Google Search Console (US). **GSC is now connected (2026-10-10) via the Composio
 `google_search_console` toolkit — property `sc-domain:adeptecom.co`.** Follow
 SEO-PLAYBOOK.md step 6b each run to pull real impressions/positions/coverage.
 
+## GA4 snapshot — 2026-10-26 (last 28 days, property 555389766)
+
+| Channel | Sessions | Engaged |
+|---|---|---|
+| Direct | 94 | 33 |
+| Organic Search | 23 | 16 |
+| Organic Social | 13 | 9 |
+| AI Assistant | 5 | 5 |
+| Referral | 1 | 0 |
+
+- Lead events: **generate_lead 1** (first real lead event recorded since tracking went live), form_start 2, contact_whatsapp 0, audit_cta_click 0 rows returned.
+- AI-assistant sessions (chatgpt.com/perplexity.ai/gemini.google.com/copilot.microsoft.com) landed only on `/` this period (5 sessions, chatgpt.com) — no blog post has picked up an AI-assistant landing yet.
+- Read-only pull per step 6c; no other dimension changes worth a separate note this run.
+
 ## GA4 snapshot — 2026-10-23 (first pull, last 28 days, property 555389766)
 
 | Channel | Sessions | Engaged |
@@ -34,6 +48,19 @@ One row per refreshed page (REFRESH runs, Mon/Wed/Fri). Skip pages refreshed in 
 | 2026-10-23 | blog/tiktok-shop-management-services.html | tiktok shop management | pos 51 (15 impr) | title; homepage link |
 | 2026-10-23 | service-creators/ads/live/setup + index.html | tiktok shop affiliate/ads/live agency, setup services, tiktok shop agency | pos 70–85 (via blog/tiktok-shop-agency-usa) | retargeted titles/H1s, depth sections, FAQ/Service schema; blog post retitled to 'how to choose' + links out |
 | 2026-10-23 | 6 posts (listing-opt, questions, retainer, worth-it, tsp, creators) | CTR | pos 3–6 | title rewrites only |
+| 2026-10-26 | blog/tiktok-shop-for-supplement-brands-usa.html | can you sell peptides on tiktok shop | pos 10.5 (2 impr, 28d) | title+meta retitled to lead with the peptides query; new H2 #3 "Can you sell peptides on TikTok Shop?" (prohibited vs. restricted framing, grounded in 2026-10-26 live research); matching FAQ Q&A added to HTML + FAQPage JSON-LD; service-page links switched to exact anchor names (TikTok Shop affiliate agency / ads agency / LIVE shopping agency); dateModified + hero line + sitemap lastmod bumped to 2026-10-26 |
+
+## AEO check — 2026-10-26
+- Live WebSearch for `"tiktok shop creator affiliate commission rates" adeptecom` surfaced only TikTok's own Ads help docs and other publishers (AdvertisePurple, Fivex, Shopify) — no adeptecom.co citation. Updated that row in the AEO table below from "not checked yet" to "not cited (2026-10-26)".
+- Live WebSearch for `"how to scale tiktok shop sales" adeptecom` surfaced only other vendor/agency guides (Teikametrics, Pulse Advertising, OnRamp Funds, Social Tale) — no adeptecom.co citation. Updated that row in the AEO table below from "not checked yet" to "not cited (2026-10-26)".
+
+## GSC snapshot — 2026-10-26 (REFRESH run)
+- Sitemap `https://adeptecom.co/sitemap.xml`: 0 errors, 0 warnings, 34 submitted / **0 indexed** (per the sitemap's own counter — per-URL Inspection below again shows real indexing progress this counter hasn't caught up to; this has now been true for 16 straight snapshots and remains a stale/lagging counter, not an indexing problem). The legacy `http://` sitemap index + 3 legacy `sitemap-8/14/18.xml` entries remain registered from 2024 (`isPending: true` or stale `lastDownloaded: 2025-01-11`) — still needs manual removal in the GSC UI, per the 2026-10-10 baseline note.
+- **URL Inspection, this run's refresh target** (`tiktok-shop-for-supplement-brands-usa.html`): **"Submitted and indexed"** (verdict PASS, last crawled 2026-10-10, Breadcrumbs rich result detected). **URL Inspection, previous run's new post** (`tiktok-shop-seller-onboarding-usa.html`): **"Submitted and indexed"** (verdict PASS, last crawled 2026-10-24, Breadcrumbs detected).
+- Search analytics (28d, `dimensions:["page","query"]`, row_limit 250) — the full page×query pull used to pick this run's refresh target: the only non-brand query sitting inside the 5–20 "momentum" band on a page **not** already touched by the 2026-10-23 refresh batch was `tiktok-shop-for-supplement-brands-usa.html` for **"can you sell peptides on tiktok shop"** (2 impressions, position 10.5) — a real, narrow buyer-compliance question distinct from the page's existing general-supplement framing. Chosen as this run's refresh target per step 6b's position/impression rule.
+- Search analytics (28d, `dimensions:["query"]`, row_limit 25): still dominated by brand-term typos/variants ("adecom", "adept", "adepto", "adeptt") and unrelated generic/location queries ("amazon near me", "e commerce jobs near me", "e commerce institute in lahore", "ecommerce services near me"). No new non-brand TikTok Shop term broke into the top 25 by clicks this period.
+- Search analytics (28d, `dimensions:["page"]`, row_limit 25): `tiktok-shop-agency-usa.html` remains the standout high-volume/low-position page (268 impressions, position ~71.4) — still the clearest refresh candidate on the site, though it already received title/link changes in the 2026-10-23 retarget batch and needs a full future refresh pass of its own once eligible again. `tiktok-shop-agency-retainer-vs-commission-pricing.html` (6 impr, pos 5.3) and `is-tiktok-shop-worth-it-for-established-amazon-brands.html` (2 impr, pos 5) sit inside the momentum band but were both refreshed 2026-10-23 and are not yet eligible again. `tiktok-shop-agency-flat-fee-vs-percentage-of-gmv.html` (18 impr, pos 22) sits just outside the band and is a candidate for a future refresh run.
+- Takeaway: indexing continues to hold steady; the 2026-10-23 batch refresh touched most of the site's momentum pages, which narrowed this run's eligible candidate pool to the supplement/peptides signal. `tiktok-shop-agency-usa.html` and `tiktok-shop-agency-flat-fee-vs-percentage-of-gmv.html` are the next refresh candidates once 14 days clear.
 
 ## GSC baseline — 2026-10-10 (sitemap just submitted)
 - Sitemap `https://adeptecom.co/sitemap.xml` submitted (24 URLs). Old 2024 sitemaps
@@ -224,5 +251,5 @@ the routine hasn't run that check for this row yet; it doesn't mean "not cited."
 | 2026-10-15 | tiktok-shop-partner-tsp-vs-independent-agency-cost | tiktok shop partner (tsp) vs independent agency cost | not cited (2026-10-21) | Live WebSearch for "tiktok shop partner (tsp) vs independent agency cost" adeptecom surfaced only other agency/vendor guides (Hubfluence, MarketerHire, TopGrowthMarketing, Fivex, Sociallyin) — no adeptecom.co citation yet. |
 | 2026-10-16 | tiktok-shop-for-amazon-sellers-expansion-strategy | tiktok shop for amazon sellers expansion strategy | not cited (2026-10-23) | Live WebSearch for "tiktok shop for amazon sellers expansion strategy" adeptecom surfaced only other agency/vendor guides (Darkroom Agency, Helium10, Salesduo) — no adeptecom.co citation yet. |
 | 2026-10-19 | is-tiktok-shop-worth-it-for-established-amazon-brands | is tiktok shop worth it for established amazon brands | not cited (2026-10-23) | Live WebSearch for "is tiktok shop worth it for established amazon brands" adeptecom surfaced only other publishers (Ordoro, Teikametrics, Intentwise, Joinbrands, Kolsprite) — no adeptecom.co citation yet. |
-| 2026-10-20 | tiktok-shop-creator-affiliate-commission-rates | tiktok shop creator affiliate commission rates | not checked yet | Row #16, first plain top-down pick since the Q4 priority-override list was fully exhausted on 2026-10-19 — informational, commission-mechanics angle distinct from the pricing-model cluster (10-13/10-14/10-15). |
-| 2026-10-21 | how-to-scale-tiktok-shop-sales | how to scale tiktok shop sales | not checked yet | Row #17, plain top-down informational pick — general growth playbook (hero SKU, creator engine, paid amplification on proven content, LIVE, profit tracking) distinct from the Amazon and pricing-model clusters; grounded in the 2026-10-21 live research on 2026 US GMV growth ($11.8B H1, +103% YoY) and the demand-engine framing added as keywords #59-61. |
+| 2026-10-20 | tiktok-shop-creator-affiliate-commission-rates | tiktok shop creator affiliate commission rates | not cited (2026-10-26) | Row #16, first plain top-down pick since the Q4 priority-override list was fully exhausted on 2026-10-19 — informational, commission-mechanics angle distinct from the pricing-model cluster (10-13/10-14/10-15). Live WebSearch for "tiktok shop creator affiliate commission rates" adeptecom surfaced only TikTok's own Ads help docs and other publishers (AdvertisePurple, Fivex, Shopify) — no adeptecom.co citation yet. |
+| 2026-10-21 | how-to-scale-tiktok-shop-sales | how to scale tiktok shop sales | not cited (2026-10-26) | Row #17, plain top-down informational pick — general growth playbook (hero SKU, creator engine, paid amplification on proven content, LIVE, profit tracking) distinct from the Amazon and pricing-model clusters; grounded in the 2026-10-21 live research on 2026 US GMV growth ($11.8B H1, +103% YoY) and the demand-engine framing added as keywords #59-61. Live WebSearch for "how to scale tiktok shop sales" adeptecom surfaced only other vendor/agency guides (Teikametrics, Pulse Advertising, OnRamp Funds, Social Tale) — no adeptecom.co citation yet. |
