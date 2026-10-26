@@ -671,3 +671,29 @@ ul{margin:0;padding:0;list-style:none}
 a.tb:hover{border-color:var(--blue)}
 .field .opt{font-weight:400;color:var(--muted)}
 @media (max-width:560px){.trust-badges{grid-template-columns:1fr}.post-cta{padding:20px}}
+
+/* Paid-ads landing page */
+.lp-head .nav{justify-content:space-between}
+.lp-hero{padding:clamp(36px,6vw,72px) 0}
+.lp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,4vw,56px);align-items:start}
+.lp-h1{font-family:var(--display);font-weight:800;font-size:clamp(32px,4.4vw,52px);line-height:1.05;color:#fff;margin:10px 0 16px;max-width:18ch}
+.lp-lead{color:rgba(255,255,255,.84)}
+.lp-ticks{list-style:none;padding:0;margin:22px 0}
+.lp-ticks li{display:flex;gap:10px;align-items:flex-start;margin:10px 0;color:rgba(255,255,255,.9);font-size:16px}
+.lp-ticks svg{flex:0 0 auto;color:var(--orange-soft);margin-top:3px}
+.lp-proof{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.lp-proof>*{display:flex;flex-direction:column;padding:10px 14px;border:1px solid rgba(255,255,255,.22);border-radius:12px;color:#fff;text-decoration:none;min-width:130px}
+.lp-proof b{font-family:var(--display);font-size:16px}.lp-proof span{font-size:12.5px;color:rgba(255,255,255,.8)}
+.lp-form-title{font-family:var(--display);font-size:22px;color:var(--navy);margin:0 0 4px}
+.lp-form-sub{color:var(--muted);font-size:14.5px;margin:0 0 16px}
+.lp .form-card{color:var(--ink,#0E2338)}
+.lp-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.lp-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px}
+.lp-card h3{font-family:var(--display);font-size:18px;color:var(--navy);margin:0 0 8px}
+.lp-card p,.lp-card li{color:var(--muted);font-size:15.5px;line-height:1.6;margin:0}
+.lp-card ul{padding-left:18px;margin:0}.lp-card li{margin:6px 0}
+.lp-fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.lp-foot{background:var(--navy);color:rgba(255,255,255,.82);padding:26px 0;font-size:14px;text-align:center}
+.lp-foot p{margin:4px 0}.lp-foot a{color:#fff}
+.lp-legal p{color:var(--muted);line-height:1.75}.lp-legal h2{margin:26px 0 10px}
+@media (max-width:860px){.lp-grid,.lp-fit-grid,.lp-cards{grid-template-columns:1fr}.lp-h1{max-width:none}}

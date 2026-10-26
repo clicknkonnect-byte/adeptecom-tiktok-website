@@ -157,3 +157,25 @@
 /* free-audit CTA clicks */
 document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href$="#contact"]'):null;
   if(a&&typeof gtag==='function'){try{var c=a.closest('.post-cta');gtag('event','audit_cta_click',{event_category:'lead',event_label:c?('post_'+c.getAttribute('data-cta')):'site_button'});}catch(err){}}},{passive:true});
+/* ===== Paid ads: attribution + conversions =====
+   Fill these IDs to switch ad tags on (leave '' to keep them off):
+   gads      = Google Ads tag ID, e.g. 'AW-123456789'
+   gadsLabel = Google Ads conversion label for the lead action
+   metaPixel = Meta (Facebook) Pixel ID, e.g. '123456789012345' */
+var ADS_CONFIG={gads:'',gadsLabel:'',metaPixel:''};
+(function(){
+  var K=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid'];
+  try{var q=new URLSearchParams(location.search),st=JSON.parse(localStorage.getItem('ad_attr')||'{}'),hit=false;
+    K.forEach(function(k){var v=q.get(k);if(v){st[k]=v.slice(0,200);hit=true;}});
+    if(hit){st.landing=location.pathname;localStorage.setItem('ad_attr',JSON.stringify(st));}
+    document.querySelectorAll('form[action="contact.php"]').forEach(function(f){K.concat(['landing']).forEach(function(k){var i=f.querySelector('input[name="'+k+'"]');if(!i){i=document.createElement('input');i.type='hidden';i.name=k;f.appendChild(i);}if(st[k])i.value=st[k];});});
+  }catch(e){}
+  if(ADS_CONFIG.gads&&typeof gtag==='function'){gtag('config',ADS_CONFIG.gads);}
+  if(ADS_CONFIG.metaPixel){!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init',ADS_CONFIG.metaPixel);fbq('track','PageView');}
+  if(document.body&&document.body.getAttribute('data-page')==='thanks'){
+    try{if(!sessionStorage.getItem('lp_lead')){sessionStorage.setItem('lp_lead','1');
+      if(typeof gtag==='function'){gtag('event','generate_lead',{event_category:'ad_landing',event_label:'free_audit_lp'});
+        if(ADS_CONFIG.gads&&ADS_CONFIG.gadsLabel){gtag('event','conversion',{send_to:ADS_CONFIG.gads+'/'+ADS_CONFIG.gadsLabel});}}
+      if(window.fbq){fbq('track','Lead');}}}catch(e){}
+  }
+})();

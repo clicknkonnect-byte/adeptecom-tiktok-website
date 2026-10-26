@@ -278,6 +278,7 @@ and the run stalled waiting for approval. To prevent that:
   final commit is still one commit from the main thread after everything merges back.
 
 ## Guardrails
+- **Paid-ads pages are off-limits:** never edit, link to from blog posts, or add to `sitemap.xml` / `llms.txt` the pages `free-audit.html` (ad landing page, noindex) and `thanks.html` (conversion page, noindex). Never edit `privacy.html` or the paid-ads block at the bottom of `assets/js/main.js`.
 - NEVER invent metrics, client names, or testimonials. Use only claims already on the site
   ($52M+ sales, $38M+ affiliate GMV, 10K+ creators, 100% Upwork JSS) or generic, defensible
   statements, or attributed external stats per step 2's rule above.
