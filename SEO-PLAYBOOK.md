@@ -65,10 +65,21 @@ refreshes**. Decide the run type from today's weekday in **UTC** (`date -u +%u`)
      fall back to the oldest `dateModified` post in `/blog/`.
   2. Pick ONE page to improve. Prefer a page with a query at **position 4–25 and the
      most impressions**. Skip any page refreshed in the last 14 days (see the refresh
-     log in `seo/rank-log.md`). Never pick a page for a query whose intent you can't
-     serve truthfully, such as ad-account resale or unrelated niches.
-  3. Improve it for that query. Rewrite the `<title>` and meta description to put the
-     exact query near the front and give a reason to click; keep the title ≤ 65 characters
+     log in `seo/rank-log.md`). **Selection rules (added 2026-10-26):**
+     - The query needs **5+ impressions in 28 days**. If nothing in positions 4–25
+       qualifies, widen to positions 4–40. If that still fails, refresh the page with the
+       most impressions overall for its own main query.
+     - Prefer **commercial/buyer queries** (agency, management, services, pricing, hire,
+       cost) over informational ones. Prefer pages that GA4 shows getting AI-assistant or
+       organic visits.
+     - Never pick a query about a **prohibited or restricted product** (peptides, CBD,
+       weapons, and similar), ad-account resale, or an unrelated niche. Never pick a query
+       whose intent you can't serve truthfully.
+  3. Improve it for that query. **Never retitle a page away from its main topic.** If the
+     query is the page's main topic or its biggest query, rewrite the `<title>` and meta to
+     put it near the front. Otherwise keep the page's main keyword first and only add the
+     query as a secondary phrase, or leave the title alone. When rewriting,
+     put the query near the front and give a reason to click; keep the title ≤ 65 characters
      before ` | Adeptecom` where possible. Add or expand ONE answer-first H2 section
      (150–300 words) that directly answers the query, then renumber the following
      numbered H2s. Add one matching FAQ Q&A to both the HTML and the `FAQPage` JSON-LD.
@@ -93,6 +104,19 @@ existing page instead, to avoid cannibalization.
 
 **Lead path = free TikTok Shop audit.** All CTAs say "Get a free audit" or "Get my free
 audit" and link to `../index.html#contact`. Never write "Get a quote".
+
+## Git hygiene — FIRST and LAST thing every run (added 2026-10-26)
+
+The 2026-10-22 run started on a stale, detached checkout. Its push hit merge conflicts
+and the run stalled waiting for approval. To prevent that:
+- **Before editing anything**, while the tree is still clean, run:
+  `git fetch origin main && git checkout -B main origin/main`. Then confirm with
+  `git log --oneline -1` that you are on the latest `origin/main`.
+- **Right before pushing**, run `git pull --rebase origin main` and then `git push origin main`.
+- If a rebase conflicts, run `git rebase --abort`. Then re-apply your edits by hand on
+  top of the fresh `origin/main` and try once more. Never use `git reset --hard`,
+  `git checkout --theirs`, or any other destructive command to resolve it. If it still
+  fails, stop and report.
 
 ## Each run — do ALL of the following, then commit & push to `main`
 

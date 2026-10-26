@@ -35,6 +35,8 @@ SEO-PLAYBOOK.md step 6b each run to pull real impressions/positions/coverage.
 
 ## Refresh log
 
+> 2026-10-26 note (owner review): the peptides refresh was based on only 2 impressions and a restricted-product query. The page title was restored to lead with supplements, and the peptides section and FAQ were kept as a secondary topic. New selection rules in the playbook prevent a repeat.
+
 One row per refreshed page (REFRESH runs, Mon/Wed/Fri). Skip pages refreshed in the last 14 days.
 
 | Date | Page | Target query | Before (GSC 28d) | Change |
