@@ -278,6 +278,7 @@ and the run stalled waiting for approval. To prevent that:
   final commit is still one commit from the main thread after everything merges back.
 
 ## Guardrails
+- **Asset versioning:** every page links `assets/css/style.css?v=<ver>` and `assets/js/main.js?v=<ver>`. Copy the exact version string from the seed post. If a run ever edits style.css or main.js, bump the version on ALL pages in the same commit (the server caches these files for 30 days).
 - **Paid-ads pages are off-limits:** never edit, link to from blog posts, or add to `sitemap.xml` / `llms.txt` the pages `free-audit.html` (ad landing page, noindex) and `thanks.html` (conversion page, noindex). Never edit `privacy.html` or the paid-ads block at the bottom of `assets/js/main.js`.
 - NEVER invent metrics, client names, or testimonials. Use only claims already on the site
   ($52M+ sales, $38M+ affiliate GMV, 10K+ creators, 100% Upwork JSS) or generic, defensible
