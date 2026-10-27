@@ -1,5 +1,27 @@
 # Rank & content log
 
+## GA4 snapshot — 2026-10-27 (last 28 days, property 555389766)
+
+| Channel | Sessions | Engaged |
+|---|---|---|
+| Direct | 94 | 33 |
+| Organic Search | 23 | 16 |
+| Organic Social | 13 | 9 |
+| AI Assistant | 5 | 5 |
+| Referral | 1 | 0 |
+
+- Lead events: generate_lead 1, form_start 2, contact_whatsapp 0, audit_cta_click 0 rows returned — essentially unchanged from the 2026-10-26 pull (same 28-day window, one day later).
+- AI-assistant sessions (chatgpt.com/perplexity.ai/gemini.google.com/copilot.microsoft.com) still land only on `/` (5 sessions, chatgpt.com) — no blog post has picked up an AI-assistant landing yet.
+- Read-only pull per step 6c; no material change from yesterday's snapshot.
+
+## GSC snapshot — 2026-10-27 (NEW-POST run)
+- Sitemap `https://adeptecom.co/sitemap.xml`: 0 errors, 0 warnings, 36 submitted / **0 indexed** (per the sitemap's own counter — per-URL Inspection below again shows real indexing progress this counter hasn't caught up to; this has now been true for 17 straight snapshots and remains a stale/lagging counter, not an indexing problem). The legacy `http://` sitemap index + 3 legacy `sitemap-8/14/18.xml` entries remain registered from 2024 (`isPending: true` or stale `lastDownloaded: 2025-01-11`) — still needs manual removal in the GSC UI, per the 2026-10-10 baseline note.
+- **URL Inspection, this run's new post** (`tiktok-shop-product-seeding-strategy.html`): **"URL is unknown to Google"** — expected, same-day publish lag. **URL Inspection, previous run's post** (`tiktok-shop-seller-onboarding-usa.html`): **"Submitted and indexed"** (verdict PASS, last crawled 2026-10-24, Breadcrumbs rich result detected).
+- Search analytics (28d, `dimensions:["query"]`, row_limit 25): still dominated by brand-term typos/variants ("adecom", "adept", "adeptt", "adepto") and unrelated generic/location queries ("amazon near me", "e commerce jobs near me", "e commerce institute in lahore"). "can you sell peptides on tiktok shop" holds at 2 impressions, pos 10.5 (already tracked from the 2026-10-26 refresh). "digital agency for tiktok-first ecommerce brands" is now the single highest-volume non-brand term (20 impressions, pos 83.65) — still far outside the momentum band. No query related to product seeding has any impressions yet (expected — post just published).
+- Search analytics (28d, `dimensions:["page"]`, row_limit 100): `tiktok-shop-vs-amazon-for-brands.html` sits at the edge of the momentum band (55 impressions, pos ~18.3 — volume still growing but position easing from 41 impr/pos ~16.5 on 2026-10-23). In-band: `tiktok-shop-agency-retainer-vs-commission-pricing.html` (6 impr, pos 5.3), `questions-to-ask-before-hiring-a-tiktok-shop-agency.html` (2 impr, pos 5), `is-tiktok-shop-worth-it-for-established-amazon-brands.html` (3 impr, pos 5.7), `tiktok-shop-partner-tsp-vs-independent-agency-cost.html` (14 impr, pos 15.2), and **`tiktok-shop-seller-onboarding-usa.html`** (4 impr, pos 5.25 — an early, promising in-band signal for last run's new post). `tiktok-shop-for-supplement-brands-usa.html` sits at the edge (18 impr, pos 19.7). Persistent high-volume/low-position pages continue: `tiktok-shop-agency-usa.html` (268 impr, pos 71.4), `tiktok-shop-affiliate-program-setup.html` (49 impr, pos 41.5), `tiktok-shop-management-services.html` (46 impr, pos 47.2) — still candidates for a future on-page refresh.
+- **Momentum read:** the vs-Amazon page's position is easing slightly while volume keeps growing — still the most consistent long-running signal, but now worth watching for a possible refresh if position keeps drifting past 20. This run's keyword pick (`tiktok shop product seeding strategy`, row #20, plain top-down informational — the Q4 override list remains exhausted) is a different cluster — creator-seeding mechanics — with no current GSC signal since it's brand new.
+- Takeaway: indexing lag is stable, the seller-onboarding page's first in-band signal (4 impr/pos 5.25) is worth re-checking next run, and the vs-Amazon page is the one to watch for a future refresh if its position keeps easing. Continuing top-down through the informational backlog per `seo/keywords.md`.
+
 One row per routine run. Track the target term and check positions periodically in
 Google Search Console (US). **GSC is now connected (2026-10-10) via the Composio
 `google_search_console` toolkit — property `sc-domain:adeptecom.co`.** Follow
@@ -32,6 +54,9 @@ SEO-PLAYBOOK.md step 6b each run to pull real impressions/positions/coverage.
 - ChatGPT visitors landed on `/` and `/service-creators.html`. All of them engaged. ChatGPT already cites the site.
 - Top countries: Pakistan 46 (mostly own/team visits), US 41, Poland 12.
 - Peak day: 2026-10-16, with 25 sessions.
+
+## AEO check — 2026-10-27
+- Live WebSearch for `"tiktok shop seller onboarding usa" adeptecom` surfaced only third-party seller guides (4seller, Racklify, Shopappy, EchoTik) — no adeptecom.co citation. Updated that row in the AEO table below from "not checked yet" to "not cited (2026-10-27)".
 
 ## Refresh log
 
@@ -229,7 +254,8 @@ the routine hasn't run that check for this row yet; it doesn't mean "not cited."
 
 | Date | Published post | Target keyword | AEO check | Notes |
 |---|---|---|---|---|
-| 2026-10-23 | tiktok-shop-seller-onboarding-usa | tiktok shop seller onboarding usa | not checked yet | Row #18, plain top-down informational pick — account type (individual vs. business), verification documents, approval timelines, and rejection causes; grounded in 2026-10-23 live research and reinforced by this run's GSC drilldown surfacing "tiktok acceptable documents for business verification" as a live query against the site. |
+| 2026-10-27 | tiktok-shop-product-seeding-strategy | tiktok shop product seeding strategy | not checked yet | Row #20, plain top-down informational pick (Q4 override list remains exhausted) — creator seeding volume/cost, creator vetting, a tracking workflow, and the move from free seeding to a paid/commission deal; grounded in 2026-10-27 live research (30-80 creator pipelines, $15-75/sample cost, 60-80% no-content rate, content completion rate as a vetting metric, seeding diminishing returns beyond ~1,000-1,500 units/month). |
+| 2026-10-23 | tiktok-shop-seller-onboarding-usa | tiktok shop seller onboarding usa | not cited (2026-10-27) | Row #18, plain top-down informational pick — account type (individual vs. business), verification documents, approval timelines, and rejection causes; grounded in 2026-10-23 live research and reinforced by this run's GSC drilldown surfacing "tiktok acceptable documents for business verification" as a live query against the site. Live WebSearch for "tiktok shop seller onboarding usa" adeptecom surfaced only third-party seller guides (4seller, Racklify, Shopappy, EchoTik) — no adeptecom.co citation yet. |
 | 2026-08-16 | how-to-start-and-scale-a-tiktok-shop-in-the-usa | how to start a tiktok shop in the usa | not cited (2026-10-01) | Live WebSearch for "how to start a tiktok shop in the usa adeptecom" surfaced only generic setup guides from other sites — no adeptecom.co citation yet. |
 | 2026-08-21 | tiktok-shop-agency-usa | tiktok shop agency usa | not cited (2026-10-01) | Live WebSearch for "tiktok shop agency usa adeptecom" surfaced other named agencies (Sociallyin, Tinuiti, Power Digital) but no adeptecom.co citation yet. |
 | 2026-08-21 | tiktok-shop-management-services | tiktok shop management services | not cited (2026-10-09) | Live WebSearch for "tiktok shop management services adeptecom" surfaced only other providers (Suntec India, Evolved Commerce, EcomAchieve, Slayva, Fiverr listings) — no adeptecom.co citation yet. |

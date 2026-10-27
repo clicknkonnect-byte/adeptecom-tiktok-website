@@ -43,7 +43,7 @@ over the remaining informational rows starting next run.
 | 17 | how to scale tiktok shop sales | informational | done 2026-10-21 |
 | 18 | tiktok shop seller onboarding usa | informational | done 2026-10-23 |
 | 19 | best tiktok shop agency for ecommerce brands | commercial | done 2026-10-09 |
-| 20 | tiktok shop product seeding strategy | informational | todo |
+| 20 | tiktok shop product seeding strategy | informational | done 2026-10-27 |
 | 21 | tiktok shop ai automation | informational | todo |
 | 22 | tiktok shop returns and account health | informational | todo |
 | 23 | tiktok shop launch checklist usa | informational | todo |
@@ -195,3 +195,20 @@ verification last updated june 2026") that GSC's query drilldown surfaced
 this run (1 impression, position ~36) — see seo/rank-log.md GSC snapshot
 2026-10-23 — distinct exact buyer phrasing worth its own future long-tail
 coverage once this run's onboarding post shows movement.
+
+| 65 | tiktok shop creator content completion rate | informational | todo |
+| 66 | how many samples should i send tiktok shop creators | informational | todo |
+| 67 | tiktok shop creator concentration 80/20 rule | informational | todo |
+
+Rows 65-67 added 2026-10-27 (live research) — sourced while researching this
+run's product-seeding post: vendor guidance (Superfiliate) frames "content
+completion rate" (share of samples a creator actually turns into a post,
+with >80% cited as the vetting bar) as a distinct lookup query from generic
+creator vetting; a CMO-sourced framing that 90-95% of individual seeding
+sends should be expected to produce no direct sales (phase one is volume,
+not a failed campaign) is a recurring buyer anxiety worth its own future
+long-tail post; and multiple sources describe a small number of creators
+(5-10, or the top 0.5%) driving a disproportionate share of monthly
+affiliate GMV once a seeding pipeline has run for a while — a concentration
+pattern distinct from the existing commission-rate and seeding-strategy
+posts.
