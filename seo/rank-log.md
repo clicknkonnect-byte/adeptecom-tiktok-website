@@ -1,5 +1,32 @@
 # Rank & content log
 
+## GA4 snapshot — 2026-10-28 (last 28 days, property 555389766)
+
+| Channel | Sessions | Engaged |
+|---|---|---|
+| Direct | 96 | 32 |
+| Organic Search | 30 | 22 |
+| Organic Social | 13 | 9 |
+| Paid Search | 8 | 1 |
+| AI Assistant | 6 | 6 |
+| Referral | 2 | 0 |
+
+- Lead events: form_start 4, generate_lead 2, audit_cta_click 1, contact_whatsapp 0 rows returned. generate_lead continues to tick up from 1 on 2026-10-26/27.
+- AI-assistant sessions (chatgpt.com/perplexity.ai/gemini.google.com/copilot.microsoft.com) landed only on `/` this period (6 sessions, chatgpt.com) — no blog post has picked up an AI-assistant landing yet.
+- Read-only pull per step 6c; Organic Search is up to 30 sessions (from 23 on 2026-10-27), the clearest week-over-week gain of any channel.
+
+## GSC snapshot — 2026-10-28 (REFRESH run)
+- Sitemap `https://adeptecom.co/sitemap.xml`: 0 errors, 0 warnings, 36 submitted / **0 indexed** (per the sitemap's own counter — per-URL Inspection below again shows real indexing progress this counter hasn't caught up to; this has now been true for 18 straight snapshots and remains a stale/lagging counter, not an indexing problem). The legacy `http://` sitemap index + 3 legacy `sitemap-8/14/18.xml` entries remain registered from 2024 (`isPending: true` or stale `lastDownloaded: 2025-01-11`) — still needs manual removal in the GSC UI, per the 2026-10-10 baseline note.
+- **URL Inspection, this run's refresh target** (`best-tiktok-shop-agency-for-ecommerce-brands.html`): **"Submitted and indexed"** (verdict PASS, last crawled 2026-10-10, Breadcrumbs rich result detected). **URL Inspection, previous run's new post** (`tiktok-shop-product-seeding-strategy.html`): **"URL is unknown to Google"** — expected, publish lag (published 2026-10-27).
+- Search analytics (28d, `dimensions:["page","query"]`, row_limit 250) — the full page×query pull used to pick this run's target: no query in the 5–20 or 4–40 momentum band had 5+ impressions on a page not already refreshed in the last 14 days (the entire 2026-10-23 and 2026-10-26 refresh batches — beauty, vs-amazon, listing-rejected, compliance, gmv-max, affiliate-setup, management-services, the service pages, listing-opt, questions, retainer, worth-it, tsp, and supplement/peptides — are all still inside their 14-day cooldown). Per the playbook's fallback, selected the eligible page with the most overall impressions for its own main query: **`best-tiktok-shop-agency-for-ecommerce-brands.html`**, whose single biggest query is **"digital agency for tiktok-first ecommerce brands"** (21 impressions, position ~83.8; page total 50 impressions, position ~71.5) — a commercial agency-hiring query, never refreshed before, and closely aligned with the page's existing "best agency" topic (no retitle-away-from-topic risk).
+- Search analytics (28d, `dimensions:["query"]`, row_limit 25): still dominated by brand-term typos/variants ("adecom", "adept", "adepto", "adeptt") and unrelated generic/location queries ("amazon near me", "e commerce jobs near me", "e commerce institute in lahore"). "digital agency for tiktok-first ecommerce brands" (21 impr, pos 83.8) is the single highest-volume non-brand term — this run's refresh target.
+- Search analytics (28d, `dimensions:["page"]`, row_limit 100): `tiktok-shop-vs-amazon-for-brands.html` remains the clearest in-band momentum signal (56 impressions, pos ~18.2, still growing from 41 impr/pos ~16.5 on 2026-10-23) but is inside its 14-day refresh cooldown. `tiktok-shop-agency-usa.html` remains the standout high-volume/low-position page (268 impr, pos ~71.4) but was retitled/linked in the 2026-10-23 batch and is also inside cooldown. `tiktok-shop-partner-tsp-vs-independent-agency-cost.html` (17 impr, pos 13.9) and `tiktok-shop-for-supplement-brands-usa.html` (18 impr, pos 19.7) sit in-band but are both inside cooldown.
+- **Momentum read:** no new in-band query cleared the selection bar this run, so the refresh targeted the site's single largest non-brand query instead, per the playbook's fallback rule. The vs-Amazon page keeps building and is the top candidate once its cooldown clears (14 days from 2026-10-23, i.e. 2026-11-06).
+- Takeaway: indexing lag is stable, several momentum pages are mid-cooldown from the 2026-10-23/26 refresh batches, and this run's pick (the ecommerce-brands "best agency" page, retitled toward its own biggest query) is a reasonable next target once the cooldown pages clear. Continuing to watch the vs-Amazon page for the next eligible refresh.
+
+## AEO check — 2026-10-28
+- Live WebSearch for `"tiktok shop product seeding strategy" adeptecom` surfaced only vendor/agency blogs and newsletters (Beauty Independent, Superfiliate, Dropified, Hubfluence, ShortFormNation, Kolsprite) — no adeptecom.co citation. Updated that row in the AEO table below from "not checked yet" to "not cited (2026-10-28)".
+
 ## GA4 snapshot — 2026-10-27 (last 28 days, property 555389766)
 
 | Channel | Sessions | Engaged |
@@ -76,6 +103,7 @@ One row per refreshed page (REFRESH runs, Mon/Wed/Fri). Skip pages refreshed in 
 | 2026-10-23 | service-creators/ads/live/setup + index.html | tiktok shop affiliate/ads/live agency, setup services, tiktok shop agency | pos 70–85 (via blog/tiktok-shop-agency-usa) | retargeted titles/H1s, depth sections, FAQ/Service schema; blog post retitled to 'how to choose' + links out |
 | 2026-10-23 | 6 posts (listing-opt, questions, retainer, worth-it, tsp, creators) | CTR | pos 3–6 | title rewrites only |
 | 2026-10-26 | blog/tiktok-shop-for-supplement-brands-usa.html | can you sell peptides on tiktok shop | pos 10.5 (2 impr, 28d) | title+meta retitled to lead with the peptides query; new H2 #3 "Can you sell peptides on TikTok Shop?" (prohibited vs. restricted framing, grounded in 2026-10-26 live research); matching FAQ Q&A added to HTML + FAQPage JSON-LD; service-page links switched to exact anchor names (TikTok Shop affiliate agency / ads agency / LIVE shopping agency); dateModified + hero line + sitemap lastmod bumped to 2026-10-26 |
+| 2026-10-28 | blog/best-tiktok-shop-agency-for-ecommerce-brands.html | digital agency for tiktok-first ecommerce brands | pos 83.8 (21 impr, 28d; page total 50 impr, pos 71.5) | title+meta+OG retitled to lead with the query ("Digital Agency for TikTok-First Ecommerce Brands (2026 Checklist)"), keeping the same buyer-checklist topic; new answer-first H2 #1 "What makes an agency 'TikTok-first,' and why does that matter?" (grounded in the site's existing AI-run-agency positioning, no new claims); following H2s renumbered 2-7; matching FAQ Q&A added to HTML + FAQPage JSON-LD; 2 internal links added using exact service anchor names (TikTok Shop setup services, TikTok Shop ads agency (Spark Ads & GMV Max)); Article description, dateModified, hero line, and sitemap lastmod bumped to 2026-10-28 |
 
 ## AEO check — 2026-10-26
 - Live WebSearch for `"tiktok shop creator affiliate commission rates" adeptecom` surfaced only TikTok's own Ads help docs and other publishers (AdvertisePurple, Fivex, Shopify) — no adeptecom.co citation. Updated that row in the AEO table below from "not checked yet" to "not cited (2026-10-26)".
@@ -254,7 +282,7 @@ the routine hasn't run that check for this row yet; it doesn't mean "not cited."
 
 | Date | Published post | Target keyword | AEO check | Notes |
 |---|---|---|---|---|
-| 2026-10-27 | tiktok-shop-product-seeding-strategy | tiktok shop product seeding strategy | not checked yet | Row #20, plain top-down informational pick (Q4 override list remains exhausted) — creator seeding volume/cost, creator vetting, a tracking workflow, and the move from free seeding to a paid/commission deal; grounded in 2026-10-27 live research (30-80 creator pipelines, $15-75/sample cost, 60-80% no-content rate, content completion rate as a vetting metric, seeding diminishing returns beyond ~1,000-1,500 units/month). |
+| 2026-10-27 | tiktok-shop-product-seeding-strategy | tiktok shop product seeding strategy | not cited (2026-10-28) | Row #20, plain top-down informational pick (Q4 override list remains exhausted) — creator seeding volume/cost, creator vetting, a tracking workflow, and the move from free seeding to a paid/commission deal; grounded in 2026-10-27 live research (30-80 creator pipelines, $15-75/sample cost, 60-80% no-content rate, content completion rate as a vetting metric, seeding diminishing returns beyond ~1,000-1,500 units/month). Live WebSearch for "tiktok shop product seeding strategy" adeptecom surfaced only vendor/agency blogs (Beauty Independent, Superfiliate, Dropified, Hubfluence, ShortFormNation, Kolsprite) — no adeptecom.co citation yet. |
 | 2026-10-23 | tiktok-shop-seller-onboarding-usa | tiktok shop seller onboarding usa | not cited (2026-10-27) | Row #18, plain top-down informational pick — account type (individual vs. business), verification documents, approval timelines, and rejection causes; grounded in 2026-10-23 live research and reinforced by this run's GSC drilldown surfacing "tiktok acceptable documents for business verification" as a live query against the site. Live WebSearch for "tiktok shop seller onboarding usa" adeptecom surfaced only third-party seller guides (4seller, Racklify, Shopappy, EchoTik) — no adeptecom.co citation yet. |
 | 2026-08-16 | how-to-start-and-scale-a-tiktok-shop-in-the-usa | how to start a tiktok shop in the usa | not cited (2026-10-01) | Live WebSearch for "how to start a tiktok shop in the usa adeptecom" surfaced only generic setup guides from other sites — no adeptecom.co citation yet. |
 | 2026-08-21 | tiktok-shop-agency-usa | tiktok shop agency usa | not cited (2026-10-01) | Live WebSearch for "tiktok shop agency usa adeptecom" surfaced other named agencies (Sociallyin, Tinuiti, Power Digital) but no adeptecom.co citation yet. |
