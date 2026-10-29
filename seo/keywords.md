@@ -44,7 +44,7 @@ over the remaining informational rows starting next run.
 | 18 | tiktok shop seller onboarding usa | informational | done 2026-10-23 |
 | 19 | best tiktok shop agency for ecommerce brands | commercial | done 2026-10-09 |
 | 20 | tiktok shop product seeding strategy | informational | done 2026-10-27 |
-| 21 | tiktok shop ai automation | informational | todo |
+| 21 | tiktok shop ai automation | informational | done 2026-10-29 |
 | 22 | tiktok shop returns and account health | informational | todo |
 | 23 | tiktok shop launch checklist usa | informational | todo |
 | 24 | tiktok shop content brief for creators | informational | todo |
@@ -212,3 +212,19 @@ long-tail post; and multiple sources describe a small number of creators
 affiliate GMV once a seeding pipeline has run for a while — a concentration
 pattern distinct from the existing commission-rate and seeding-strategy
 posts.
+
+| 68 | tiktok shop ai seller assistant and faq chatbot | informational | todo |
+| 69 | tiktok shop gmv max ai bidding vs manual ad control | informational | todo |
+| 70 | ai content tools for tiktok shop creators | informational | todo |
+
+Rows 68-70 added 2026-10-29 (live research) — sourced while researching this
+run's AI-automation post: TikTok's Seller Center ships three native
+automations (auto-greeting, FAQ chatbot, reply suggestions) plus a Seller
+Assistant for account questions, with an AI-powered Seller Center homepage
+in limited US beta — a distinct lookup query from the general "ai
+automation" framing; GMV Max's automated targeting/pacing/creative
+selection toward an ROI target is a recurring buyer question about how much
+control sellers actually keep once they turn it on; and third-party AI
+tools for auto-editing, subtitles, and script/title generation (CapCut-style
+and vendor tools like EchoTik) are frequently searched as a distinct
+"which tools" query separate from the strategy-level automation topic.
