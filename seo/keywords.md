@@ -45,7 +45,7 @@ over the remaining informational rows starting next run.
 | 19 | best tiktok shop agency for ecommerce brands | commercial | done 2026-10-09 |
 | 20 | tiktok shop product seeding strategy | informational | done 2026-10-27 |
 | 21 | tiktok shop ai automation | informational | done 2026-10-29 |
-| 22 | tiktok shop returns and account health | informational | todo |
+| 22 | tiktok shop returns and account health | informational | done 2026-11-03 |
 | 23 | tiktok shop launch checklist usa | informational | todo |
 | 24 | tiktok shop content brief for creators | informational | todo |
 | 25 | tiktok shop marketing agency for startups | commercial | done 2026-10-09 |
@@ -228,3 +228,21 @@ control sellers actually keep once they turn it on; and third-party AI
 tools for auto-editing, subtitles, and script/title generation (CapCut-style
 and vendor tools like EchoTik) are frequently searched as a distinct
 "which tools" query separate from the strategy-level automation topic.
+
+| 71 | tiktok shop account health rating (ahr) explained | informational | todo |
+| 72 | tiktok shop performance score vs account health rating | informational | todo |
+| 73 | tiktok shop seller-fault return rate benchmark | informational | todo |
+
+Rows 71-73 added 2026-11-03 (live research) — sourced while researching this
+run's returns-and-account-health post: third-party sources describe TikTok
+Shop replacing its older violation-points system with a 0-1,000 Account
+Health Rating (new shops reported to start around 200, with milestone
+enforcement around 150/100/50/0 points), but disagree on the scoring window
+(90 vs. 180 days) — a distinct lookup query from the general "account
+health" framing already covered by this run's post; a separate 0-5 Shop
+Performance Score (covering after-sales handling time, affiliate/campaign
+access, settlement speed) is frequently confused with the AHR and is worth
+its own future explainer; and published TikTok Shop return-rate benchmarks
+disagree sharply across sources (sub-1% to 12-20% depending on category and
+definition), with one vendor guide's "keep seller-fault returns under 1.5%"
+figure a distinct, narrower buyer lookup from the general returns topic.
