@@ -75,7 +75,7 @@ grew 103% YoY to $11.8B in H1 2026; Shop tab now drives the majority of US
 GMV) used to ground this run's cost-guide post.
 
 | 36 | tiktok shop for amazon sellers expansion strategy | commercial | done 2026-10-16 |
-| 37 | tiktok shop and amazon dual-funnel strategy | informational | todo |
+| 37 | tiktok shop and amazon dual-funnel strategy | informational | done 2026-11-05 (gsc momentum override) |
 | 38 | is tiktok shop worth it for established amazon brands | commercial | done 2026-10-19 |
 | 39 | tiktok shop content velocity vs amazon seo | informational | todo |
 | 40 | tiktok shop seller fees vs amazon referral fees | informational | todo |
@@ -246,3 +246,20 @@ its own future explainer; and published TikTok Shop return-rate benchmarks
 disagree sharply across sources (sub-1% to 12-20% depending on category and
 definition), with one vendor guide's "keep seller-fault returns under 1.5%"
 figure a distinct, narrower buyer lookup from the general returns topic.
+
+| 74 | tiktok shop fulfilled by tiktok vs amazon fba for sellers | informational | todo |
+| 75 | tiktok shop agency rfp checklist for amazon brands | commercial | todo |
+| 76 | tracking incremental revenue vs cannibalization tiktok shop amazon | informational | todo |
+
+Rows 74-76 added 2026-11-05 (live research) — sourced while researching this
+run's dual-funnel strategy post: industry coverage describes TikTok's own
+fulfillment programs expanding through 2026 as an alternative to Amazon FBA
+for TikTok Shop orders, a distinct lookup query from the general fulfillment
+framing already touched on by the Amazon-expansion post; a June 2026 report
+that TikTok Shop now sits next to Amazon and Walmart in agency RFPs, plus an
+Amazon-focused agency's July 2026 acquisition of a TikTok Shop specialist,
+point to a future buyer-checklist angle for brands vetting an agency that
+claims to run both channels; and the cross-channel attribution problem (is
+TikTok Shop GMV incremental or just shifting existing Amazon buyers) came up
+repeatedly as a distinct buyer question worth its own future deep-dive beyond
+this run's post-level treatment of it.

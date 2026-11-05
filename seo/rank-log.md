@@ -1,5 +1,32 @@
 # Rank & content log
 
+## GA4 snapshot — 2026-11-05 (last 28 days, property 555389766)
+
+| Channel | Sessions |
+|---|---|
+| Direct | 98 |
+| Organic Search | 31 |
+| AI Assistant | 13 |
+| Organic Social | 8 |
+| Paid Search | 8 |
+| Referral | 3 |
+
+- Lead events: audit_cta_click 7, form_start 7, form_submit 6, generate_lead 5, contact_whatsapp 4 — every lead event up again vs. the 2026-11-04 pull (audit_cta_click 6, form_start 6, form_submit 5, generate_lead 4, contact_whatsapp 4).
+- AI-assistant sessions (chatgpt.com/perplexity.ai/gemini.google.com/copilot.microsoft.com): 13 sessions this period (up from 10), all chatgpt.com, still split across three landing pages — `/` (9), `/service-creators.html` (3), `/service-live.html` (1).
+- Read-only pull per step 6c; no refresh-target override indicated (no AI-assistant traffic on any blog post yet).
+
+## GSC snapshot — 2026-11-05 (NEW-POST run)
+- Sitemap `https://adeptecom.co/sitemap.xml`: 0 errors, 0 warnings, 38 submitted / 0 indexed (per the sitemap's own counter — stale/lagging, not an indexing problem, as usual). Legacy `http://` sitemap index + 3 legacy `sitemap-8/14/18.xml` entries remain registered from 2024 — still needs manual removal in the GSC UI.
+- **URL Inspection, previous NEW-POST run's post** (`tiktok-shop-returns-and-account-health.html`, published 2026-11-03): still **"URL is unknown to Google"** — 2 days since publish, within the normal lag window. **URL Inspection, previous REFRESH run's target** (`tiktok-shop-seller-onboarding-usa.html`): **"Submitted and indexed"** (verdict PASS, Breadcrumbs rich result detected).
+- Search analytics (28d, `dimensions:["page","query"]`, row_limit 250) — checked for a step-6b momentum override before picking this run's keyword: `tiktok-shop-for-amazon-sellers-expansion-strategy.html` is NOT in cooldown (last refreshed 2026-10-16, as a keyword pick, not a refresh), and its query **"amazon to tiktok shop expansion strategy"** has grown to **5 impressions at position 4.2** — a clean, strong near-top-5 single-query signal, crossing the 5-impression bar this run for the first time. Per the playbook's momentum rule, this run's new post became an adjacent/long-tail variant of that winning term — **"tiktok shop and amazon dual-funnel strategy"** (keywords.md row #37) — ahead of the next cold backlog row (#23, "tiktok shop launch checklist usa"). Other non-cooldown in-band signals worth watching: `tiktok-shop-agency-flat-fee-vs-percentage-of-gmv.html` (30 impr, pos 16.5), `tiktok-shop-agency-retainer-vs-commission-pricing.html` (12 impr, pos 4.67), `questions-to-ask-before-hiring-a-tiktok-shop-agency.html` (9 impr, pos 6.22) — none has a single query clearing 5+ impressions yet.
+- Search analytics (28d, `dimensions:["query"]`, row_limit 25): still dominated by brand-term typos/variants ("adecom", "adept", "adeptt", "adepto", "adepted", "adepts") and unrelated generic/location queries ("amazon near me", "are they connected", "b", "e commerce institute in lahore", "e commerce jobs near me", "shopify course near me"). "amazon to tiktok shop expansion strategy" (5 impr, pos 4.2) is now the standout clean non-brand signal.
+- Search analytics (28d, `dimensions:["page"]`, row_limit 25): `tiktok-shop-agency-usa.html` remains the standout high-volume/low-position page (272 impr, pos 71.5, in cooldown until 2026-11-06). `tiktok-shop-compliance-requirements-usa.html` (119 impr, pos 40.5, in cooldown until 2026-11-06) and `tiktok-shop-affiliate-program-setup.html` (51 impr, pos 40.4, in cooldown until 2026-11-06) are the next refresh priorities once their cooldowns clear.
+- **Momentum read:** the Amazon-expansion page's "amazon to tiktok shop expansion strategy" query is the first query this run to clear the 5-impression momentum bar at an excellent position — this run's new post doubles down on it directly rather than proceeding top-down.
+- Takeaway: indexing lag is stable, lead events and AI-assistant sessions are both up again, and this run used a genuine momentum override (the first since tracking began) instead of the plain top-down backlog. `tiktok-shop-compliance-requirements-usa.html` remains the top standing refresh candidate once its cooldown clears 2026-11-06.
+
+## AEO check — 2026-11-05
+- No row in the "AEO check" table below currently reads `not checked yet` — every previously published post was already checked as of the 2026-11-04 run. No live WebSearch spot-check was run this run for that reason; today's new post (`tiktok-shop-and-amazon-dual-funnel-strategy`) gets its own row below and will be picked up by a future run's step 6 once it's had time to be indexed.
+
 ## GA4 snapshot — 2026-11-04 (last 28 days, property 555389766)
 
 | Channel | Sessions |
@@ -419,6 +446,7 @@ the routine hasn't run that check for this row yet; it doesn't mean "not cited."
 
 | Date | Published post | Target keyword | AEO check | Notes |
 |---|---|---|---|---|
+| 2026-11-05 | tiktok-shop-and-amazon-dual-funnel-strategy | tiktok shop and amazon dual-funnel strategy | not checked yet | Row #37, GSC momentum override (first since tracking began) — the Amazon-expansion page's "amazon to tiktok shop expansion strategy" query crossed 5 impressions at position 4.2 this run (see the 2026-11-05 GSC snapshot above), so this post doubles down on that winning term with an adjacent/long-tail angle instead of proceeding top-down to row #23; covers what a genuine dual-funnel strategy means, why an Amazon playbook backfires on TikTok Shop's algorithm, using Amazon data to de-risk which SKUs to port, FBA vs. TikTok Shop's own fulfillment programs for viral-spike inventory, tracking profit (not just GMV) to catch cannibalization, and a buyer-checklist section on vetting an agency that claims to run both channels; grounded in 2026-11-05 live research (the "BRB dual-funnel" framing, TikTok Shop now sitting next to Amazon/Walmart in agency RFPs, and a July 2026 Amazon-agency acquisition of a TikTok Shop specialist). |
 | 2026-10-27 | tiktok-shop-product-seeding-strategy | tiktok shop product seeding strategy | not cited (2026-10-28) | Row #20, plain top-down informational pick (Q4 override list remains exhausted) — creator seeding volume/cost, creator vetting, a tracking workflow, and the move from free seeding to a paid/commission deal; grounded in 2026-10-27 live research (30-80 creator pipelines, $15-75/sample cost, 60-80% no-content rate, content completion rate as a vetting metric, seeding diminishing returns beyond ~1,000-1,500 units/month). Live WebSearch for "tiktok shop product seeding strategy" adeptecom surfaced only vendor/agency blogs (Beauty Independent, Superfiliate, Dropified, Hubfluence, ShortFormNation, Kolsprite) — no adeptecom.co citation yet. |
 | 2026-10-23 | tiktok-shop-seller-onboarding-usa | tiktok shop seller onboarding usa | not cited (2026-10-27) | Row #18, plain top-down informational pick — account type (individual vs. business), verification documents, approval timelines, and rejection causes; grounded in 2026-10-23 live research and reinforced by this run's GSC drilldown surfacing "tiktok acceptable documents for business verification" as a live query against the site. Live WebSearch for "tiktok shop seller onboarding usa" adeptecom surfaced only third-party seller guides (4seller, Racklify, Shopappy, EchoTik) — no adeptecom.co citation yet. |
 | 2026-08-16 | how-to-start-and-scale-a-tiktok-shop-in-the-usa | how to start a tiktok shop in the usa | not cited (2026-10-01) | Live WebSearch for "how to start a tiktok shop in the usa adeptecom" surfaced only generic setup guides from other sites — no adeptecom.co citation yet. |
