@@ -46,7 +46,7 @@ over the remaining informational rows starting next run.
 | 20 | tiktok shop product seeding strategy | informational | done 2026-10-27 |
 | 21 | tiktok shop ai automation | informational | done 2026-10-29 |
 | 22 | tiktok shop returns and account health | informational | done 2026-11-03 |
-| 23 | tiktok shop launch checklist usa | informational | todo |
+| 23 | tiktok shop launch checklist usa | informational | done 2026-11-12 |
 | 24 | tiktok shop content brief for creators | informational | todo |
 | 25 | tiktok shop marketing agency for startups | commercial | done 2026-10-09 |
 | 26 | what is a tiktok shop partner (tsp) | informational | todo |
@@ -263,3 +263,15 @@ claims to run both channels; and the cross-channel attribution problem (is
 TikTok Shop GMV incremental or just shifting existing Amazon buyers) came up
 repeatedly as a distinct buyer question worth its own future deep-dive beyond
 this run's post-level treatment of it.
+
+| 77 | why do most tiktok shops never get a sale | informational | todo |
+| 78 | how many skus should i launch with on tiktok shop | informational | todo |
+
+Rows 77-78 added 2026-11-12 (live research) — sourced while researching this
+run's launch-checklist post: public reporting puts the number of registered
+US TikTok Shop seller accounts above 800,000 by mid-2026 with more than half
+recording zero sales, a distinct buyer-anxiety angle from the general launch
+topic worth its own future post on what separates a shop that sells from one
+that doesn't; and multiple vendor guides converge on starting a launch with
+one to three hero SKUs rather than a full catalog, a narrower lookup query
+than this run's broader checklist treatment of catalog scope.
