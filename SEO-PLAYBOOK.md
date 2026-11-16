@@ -75,6 +75,17 @@ refreshes**. Decide the run type from today's weekday in **UTC** (`date -u +%u`)
      - Never pick a query about a **prohibited or restricted product** (peptides, CBD,
        weapons, and similar), ad-account resale, or an unrelated niche. Never pick a query
        whose intent you can't serve truthfully.
+     - **Hard blocklist (added 2026-11-16).** Never pick, and never write a title, H2, or FAQ for, any
+       query containing: `account price`, `agency account`, `ad account`, `account for sale`, `buy`,
+       `rent`, `reseller`, `whitelist`, `unlimited`, `business center`, `BC account`, `cheap`,
+       `free`, `jobs`, `salary`, `course`, `login`. These come from people trying to buy or rent
+       ad accounts, not from brands hiring an agency. A run on 2026-10-30 and again on 2026-11-16
+       refreshed the cost guide for "tiktok agency account price" anyway; do not reinterpret such a
+       query as "agency fee" intent. If the only qualifying query is blocklisted, pick a different page.
+     - **No invented numbers (added 2026-11-16).** Never add price ranges, percentages, or market
+       statistics unless the same run found them via WebSearch and the page attributes them in words
+       to "public reporting" or "industry reports". Never write "per published industry pricing"
+       without a source. If you can't source a number, leave it out.
   3. Improve it for that query. **Never retitle a page away from its main topic.** If the
      query is the page's main topic or its biggest query, rewrite the `<title>` and meta to
      put it near the front. Otherwise keep the page's main keyword first and only add the
