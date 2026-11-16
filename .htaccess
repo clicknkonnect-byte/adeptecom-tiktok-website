@@ -2,6 +2,7 @@ Options -Indexes
 DirectoryIndex index.html
 
 RewriteEngine On
+RewriteRule ^_leads(/|$) - [F,L]
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^ https://adeptecom.co%{REQUEST_URI} [L,R=301]

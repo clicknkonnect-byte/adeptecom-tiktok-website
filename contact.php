@@ -40,6 +40,11 @@ $headers .= "Reply-To: $hname <$email>\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
 if ($isLP) { $subject = "[AD LEAD] ".$subject; }
-if (@mail($to, $subject, $body, $headers)) { header($isLP ? "Location: thanks.html" : "Location: index.html?sent=1#contact"); }
+$sent = @mail($to, $subject, $body, $headers);
+try {
+    require_once __DIR__ . "/lead-backup.php";
+    backup_lead(array("src"=>($isLP ? "ad-landing" : "site"), "name"=>$name, "email"=>$email, "brand"=>$brand, "whatsapp"=>$whatsapp, "plan"=>$plan, "market"=>$market, "shop"=>$shop, "revenue"=>$revenue, "tiktok_shop_status"=>$tts, "message"=>$message, "attribution"=>implode(" | ", $utm)), $sent, $body, $subject, $headers);
+} catch (Throwable $e) { }
+if ($sent) { header($isLP ? "Location: thanks.html" : "Location: index.html?sent=1#contact"); }
 else { header("Location: $back?error=1".($isLP ? "#form" : "#contact")); }
 exit;

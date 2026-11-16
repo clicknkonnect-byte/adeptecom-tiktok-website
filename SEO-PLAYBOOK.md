@@ -58,7 +58,17 @@ terms, with several posts already sitting at positions 3–25. Moving existing p
 now earns more leads than adding new pages. So the weekly mix is **2 new posts + 3
 refreshes**. Decide the run type from today's weekday in **UTC** (`date -u +%u`):
 
-- **Tue (2) / Thu (4) → NEW-POST run.** Do steps 0–10 below exactly as written.
+- **Tue (2) / Thu (4) → STRENGTHEN run. New posts are PAUSED until 2026-12-14 (owner decision, 2026-11-16).**
+  The site has 33 posts, several overlapping, and Google has crawled but not indexed the newest ones, so
+  quality beats volume for now. Do NOT publish a new post. Follow the REFRESH procedure below for the next
+  qualifying page (it must differ from the previous run's page). You may also add "Related reading"
+  cross-links between posts that cover overlapping topics (the four Amazon posts:
+  `tiktok-shop-vs-amazon-for-brands`, `is-tiktok-shop-worth-it-for-established-amazon-brands`,
+  `tiktok-shop-for-amazon-sellers-expansion-strategy`, `tiktok-shop-and-amazon-dual-funnel-strategy`),
+  each with one sentence saying how it differs from the others. NEVER delete a page or add a redirect
+  without the owner. From 2026-12-14 these days return to NEW-POST runs (steps 0–10), but a new post must
+  pass an overlap check first: search existing titles and H2s, and if a post already covers the intent,
+  refresh it instead.
 - **Mon (1) / Wed (3) / Fri (5) → REFRESH run.** Do NOT publish a new post. Instead:
   1. Pull GSC page×query data (last 28 days, `dimensions:["page","query"]`,
      `row_limit:250`, `sc-domain:adeptecom.co`) per step 6b. If GSC is unreachable,
@@ -273,6 +283,10 @@ and the run stalled waiting for approval. To prevent that:
 10. **Commit & push.** One commit, message: `SEO: <post title> + technical updates (<date>)`.
     Then `git push origin main`. Hostinger auto-deploys.
 
+10b. **IndexNow ping (best-effort, after the push).** Tell Bing, which feeds ChatGPT search, about the
+    URLs you changed. Never fail the run if this errors or the network is blocked:
+    `curl -s -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' -d '{"host":"adeptecom.co","key":"8a668baa564b0ef424b1793cfeea686c","keyLocation":"https://adeptecom.co/8a668baa564b0ef424b1793cfeea686c.txt","urlList":["https://adeptecom.co/<changed-path>"]}'`
+
 ## Run mechanics — go faster without cutting corners
 
 - **Use `WebSearch` directly for research (steps 0 and 6).** It's fast and each call
@@ -300,5 +314,5 @@ and the run stalled waiting for approval. To prevent that:
   on its own. (It changed 2026-10-09 — see the "Q4 2026 directive" section above. The rule
   is still in force per-run; volume this quarter comes from firing the routine more often,
   not from writing more posts in one sitting.)
-- Do not touch `contact.php` recipient, pricing, or the address.
+- Do not touch `contact.php` (recipient or logic), `lead-backup.php`, the `_leads/` folder, `.htaccess`, the IndexNow key file `8a668baa564b0ef424b1793cfeea686c.txt`, pricing, or the address.
 - If unsure, prefer smaller, correct changes over large risky ones.
