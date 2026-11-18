@@ -282,7 +282,7 @@ ul{margin:0;padding:0;list-style:none}
 /* footer */
 .foot{background:var(--navy);color:#fff;padding:60px 0 26px;position:relative;overflow:hidden}
 .foot .arc-bg{position:absolute;top:-30%;right:-8%;width:600px;opacity:.26;pointer-events:none}
-.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1.2fr;gap:40px;position:relative}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1.25fr 1.2fr;gap:36px;position:relative}
 .foot-logo{background:#fff;border-radius:14px;padding:13px 15px;display:inline-block;margin-bottom:18px}
 .foot-logo img{height:40px}
 .foot-about{color:rgba(255,255,255,.72);font-size:14.5px;max-width:36ch}
@@ -799,3 +799,10 @@ a.tb:hover{border-color:var(--blue)}
   .lp3 .lp-head .btn{padding:9px 14px;font-size:13.5px}
 }
 @media (max-width:520px){.lp3-areas{gap:10px}.lp3-areas div{padding:14px}.lp3-verify{gap:10px}.lp3-verify>*{padding:14px}.lp3-by{border-radius:16px}}
+
+/* Related guides block (internal linking) */
+.post-related{margin:34px 0 10px;padding:20px 22px;border:1px solid var(--line);border-radius:16px;background:var(--paper)}
+.pr-title{font-family:var(--display);font-weight:800;font-size:17px;color:var(--navy);margin:0 0 10px}
+.pr-list{margin:0 0 10px;padding-left:20px}.pr-list li{margin:7px 0;line-height:1.45}
+.pr-list a,.pr-svc a{color:var(--blue);font-weight:600}
+.pr-svc{margin:6px 0 0;font-size:14.5px;color:var(--muted)}

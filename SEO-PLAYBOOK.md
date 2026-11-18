@@ -73,7 +73,9 @@ refreshes**. Decide the run type from today's weekday in **UTC** (`date -u +%u`)
   1. Pull GSC page×query data (last 28 days, `dimensions:["page","query"]`,
      `row_limit:250`, `sc-domain:adeptecom.co`) per step 6b. If GSC is unreachable,
      fall back to the oldest `dateModified` post in `/blog/`.
-  2. Pick ONE page to improve. Prefer a page with a query at **position 4–25 and the
+  2. Pick ONE page to improve. Start with the top open row of `seo/priority-queue.md` that is not in its 14-day
+     cooldown; fall back to the GSC rules below only if the queue is empty or GSC shows a clearly better
+     candidate (15+ impressions at positions 4-15). Prefer a page with a query at **position 4–25 and the
      most impressions**. Skip any page refreshed in the last 14 days (see the refresh
      log in `seo/rank-log.md`). **Selection rules (added 2026-10-26):**
      - The query needs **5+ impressions in 28 days**. If nothing in positions 4–25
@@ -125,6 +127,26 @@ existing page instead, to avoid cannibalization.
 
 **Lead path = free TikTok Shop audit.** All CTAs say "Get a free audit" or "Get my free
 audit" and link to `../index.html#contact`. Never write "Get a quote".
+
+## Ranking levers (added 2026-11-18, owner priority: rank on Google as fast as possible)
+
+Search Console shows the site has no penalties but very few links, so internal links and focus decide how fast
+pages move. Every run must also do these:
+
+1. **Internal links.** Every post has a `post-related` block (4 links) and every page has the footer "Buyer guides"
+   column. After a refresh, confirm the page you changed (a) still has its Related guides block and (b) receives
+   at least 4 in-article links from other posts; if not, add it to the Related guides of 2 cluster peers. Use
+   descriptive anchor text (the target's H1), never "click here". Never remove the footer column.
+2. **Cluster rules.** Clusters are: agency-buying, creators/affiliate, ads/LIVE, Amazon, setup/compliance/listings,
+   and growth/category. When a new post is published later, give it a Related block with 3 cluster peers plus 1
+   commercial guide, and add a link to it inside 3 existing peers' Related blocks.
+3. **Weekly digest (Fridays, UTC weekday 5).** After the commit and push, append a dated block to
+   `seo/weekly-digest.md`: last 7 days of GSC clicks, impressions and average position, the 3 queries with the most
+   impressions, the 3 pages that gained most, GA4 sessions by channel (Organic Search, AI Assistant, Direct) and
+   counts of generate_lead, contact_whatsapp and form_submit events, plus one line per page changed this week.
+   Then send a PushNotification with a 3 to 4 sentence summary. If PushNotification is unavailable, skip it.
+   Never call a GA4 lead event a confirmed customer; say "form submissions".
+4. **Honesty rule for the digest.** Report real numbers only. If a number could not be fetched, say so.
 
 ## Git hygiene — FIRST and LAST thing every run (added 2026-10-26)
 
@@ -303,6 +325,7 @@ and the run stalled waiting for approval. To prevent that:
   final commit is still one commit from the main thread after everything merges back.
 
 ## Guardrails
+- **Do not remove** the `post-related` blocks, the footer "Buyer guides" column, or `seo/priority-queue.md` rows (mark done instead).
 - **Asset versioning:** every page links `assets/css/style.css?v=<ver>` and `assets/js/main.js?v=<ver>`. Copy the exact version string from the seed post. If a run ever edits style.css or main.js, bump the version on ALL pages in the same commit (the server caches these files for 30 days).
 - **Paid-ads pages are off-limits:** never edit, link to from blog posts, or add to `sitemap.xml` / `llms.txt` the pages `free-audit.html` (ad landing page, noindex) and `thanks.html` (conversion page, noindex). Never edit `privacy.html` or the paid-ads block at the bottom of `assets/js/main.js`.
 - NEVER invent metrics, client names, or testimonials. Use only claims already on the site
