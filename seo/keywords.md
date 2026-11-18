@@ -275,3 +275,34 @@ topic worth its own future post on what separates a shop that sells from one
 that doesn't; and multiple vendor guides converge on starting a launch with
 one to three hero SKUs rather than a full catalog, a narrower lookup query
 than this run's broader checklist treatment of catalog scope.
+
+| 79 | tiktok amazon halo effect branded search | informational | todo |
+| 80 | how to track tiktok shop sales that happen on amazon | informational | todo |
+
+Rows 79-80 added 2026-11-18 (live research) — sourced while researching this
+run's dual-funnel-strategy refresh target query ("tiktok to amazon funnel"):
+multiple vendor/agency sources describe a "halo effect" where TikTok content
+lifts Amazon branded search and direct sales, a distinct lookup query from
+the general dual-funnel framing already covered by the refreshed post, worth
+its own future explainer; and the practical tracking-method question (Amazon
+Attribution tags vs. watching branded-search/direct-traffic lift) came up
+repeatedly as a narrower buyer question than this run's answer-first section
+addressed at post level. Sources disagree sharply on the size of the halo
+effect (cited figures ranged from ~25% to over 90% underreporting across
+different vendor studies with no independent verification), so no specific
+number was used in the refreshed page per the no-invented-numbers rule.
+
+| 81 | tiktok shop new seller order and listing caps by tier | informational | todo |
+| 82 | how to graduate tiktok shop adjustment period faster | commercial | todo |
+
+Rows 81-82 added 2026-11-18 (live research) — sourced while researching this
+run's actual refresh target ("tiktok shop seller onboarding process" on
+tiktok-shop-seller-onboarding-usa.html): several third-party seller guides
+describe a 2026 tiered new-seller system with daily order/listing caps that
+rise as a shop proves compliance and shipping performance, but their exact
+thresholds (order counts, day counts) are secondary-source figures the
+run's own research flagged as unverified, a distinct, narrower lookup query
+from the general "adjustment period" framing this run's new H2 covered; and
+"how to graduate faster" is a buyer-intent variant worth its own future
+post once TikTok's own Seller Center documentation can be cited directly
+instead of third-party blog estimates.
