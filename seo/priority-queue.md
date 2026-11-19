@@ -12,7 +12,7 @@ from the footer "Buyer guides" column and 4+ links from "Related guides" blocks.
 
 | # | Page | GSC (28d) | Status |
 |---|---|---|---|
-| 1 | blog/tiktok-shop-partner-tsp-vs-independent-agency-cost.html | 30 impr, pos 11.1 | open |
+| 1 | blog/tiktok-shop-partner-tsp-vs-independent-agency-cost.html | 30 impr, pos 11.1 | done 2026-11-19 |
 | 2 | blog/tiktok-shop-agency-flat-fee-vs-percentage-of-gmv.html | 38 impr, pos 13.5 | open |
 | 3 | blog/questions-to-ask-before-hiring-a-tiktok-shop-agency.html | 11 impr, pos 14.6 | open |
 | 4 | blog/tiktok-shop-management-services.html | 11 impr, pos 8.8 | open |
