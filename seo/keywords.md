@@ -306,3 +306,18 @@ from the general "adjustment period" framing this run's new H2 covered; and
 "how to graduate faster" is a buyer-intent variant worth its own future
 post once TikTok's own Seller Center documentation can be cited directly
 instead of third-party blog estimates.
+
+| 83 | tiktok shop agency sub-account access vs full account control | commercial | todo |
+| 84 | tiktok shop agency catalog sync and inventory buffer questions | commercial | todo |
+
+Rows 83-84 added 2026-11-23 (live research) — sourced while researching this
+run's refresh target (the "questions to ask / red flags" page): multiple
+vendor buyer-guides list a request for full account control, with no
+delegated sub-account or TikTok Shop Partner connection offered, as a
+recurring red flag (this run's new H2 used that angle, phrased around
+"account access" rather than the blocklisted word "login"); and a separate
+cluster of guides lists catalog-sync handling, inventory buffer for
+promoted SKUs, and who owns shipping-exception workflows as the operational
+questions that separate a real TikTok Shop operator from a general social
+agency — a distinct, narrower lookup query from this run's account-access
+angle, worth its own future H2 or post.
