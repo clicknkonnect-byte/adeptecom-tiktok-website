@@ -88,7 +88,7 @@ to Amazon's search-driven model) found while researching this run's
 TikTok Shop vs. Amazon comparison post.
 
 | 41 | tiktok shop platform category fees usa 2026 | informational | todo |
-| 42 | tiktok shop managed service program vs independent agency | commercial | todo |
+| 42 | tiktok shop managed service program vs independent agency | commercial | done 2026-11-24 |
 | 43 | how much do tiktok shop creator commissions really cost | informational | todo |
 | 44 | tiktok shop agency minimum gmv requirements for commission pricing | informational | todo |
 | 45 | tiktok shop agency pricing red flags to avoid | commercial | todo |
@@ -309,6 +309,7 @@ instead of third-party blog estimates.
 
 | 83 | tiktok shop agency sub-account access vs full account control | commercial | todo |
 | 84 | tiktok shop agency catalog sync and inventory buffer questions | commercial | todo |
+| 85 | should i manage my tiktok shop in-house or hire an agency | commercial | todo |
 
 Rows 83-84 added 2026-11-23 (live research) — sourced while researching this
 run's refresh target (the "questions to ask / red flags" page): multiple
@@ -321,3 +322,14 @@ promoted SKUs, and who owns shipping-exception workflows as the operational
 questions that separate a real TikTok Shop operator from a general social
 agency — a distinct, narrower lookup query from this run's account-access
 angle, worth its own future H2 or post.
+
+Row 85 added 2026-11-24 (live research) — sourced while researching this
+run's refresh target (`tiktok-shop-management-services.html`, used to answer
+row #42, now marked done): buyer-side guides frame the choice as in-house vs.
+agency staffing (time-to-competency is the main constraint on going in-house;
+a common pattern is agency-first, then bring it in-house once the team knows
+the playbook), a distinct angle from row #42's platform-vs-agency comparison
+this run's new H2 actually used. One guide's vendor-reported retainer range
+($6,000-$40,000/mo plus a 5-15% ad-spend fee and 5-20% affiliate commission)
+was not used anywhere on the site — it is one agency's own figures, not an
+independent industry report, and sources disagree on cost ranges generally.
