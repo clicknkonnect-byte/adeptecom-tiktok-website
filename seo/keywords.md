@@ -310,6 +310,8 @@ instead of third-party blog estimates.
 | 83 | tiktok shop agency sub-account access vs full account control | commercial | todo |
 | 84 | tiktok shop agency catalog sync and inventory buffer questions | commercial | todo |
 | 85 | should i manage my tiktok shop in-house or hire an agency | commercial | todo |
+| 86 | how is tiktok shop agency commission calculated gross or net of refunds | commercial | todo |
+| 87 | tiktok shop agency account health track record before hiring | commercial | todo |
 
 Rows 83-84 added 2026-11-23 (live research) — sourced while researching this
 run's refresh target (the "questions to ask / red flags" page): multiple
@@ -333,3 +335,14 @@ this run's new H2 actually used. One guide's vendor-reported retainer range
 ($6,000-$40,000/mo plus a 5-15% ad-spend fee and 5-20% affiliate commission)
 was not used anywhere on the site — it is one agency's own figures, not an
 independent industry report, and sources disagree on cost ranges generally.
+
+Rows 86-87 added 2026-11-25 (live research) — sourced while researching this
+run's refresh target (`tiktok-shop-agency-retainer-vs-commission-pricing.html`):
+recurring buyer-vetting guidance surfaced two distinct, narrower questions not
+yet in the backlog — how a commission percentage is actually calculated
+(gross GMV vs. net of refunds/platform fees/organic sales the agency didn't
+influence, which this run's new H2 answered at a high level) and an agency's
+account-health history across other client shops (deactivations, listing
+violations) as a specific due-diligence question, distinct from the general
+"red flags" framing already covered on other pages. Both are commercial,
+buyer-checklist angles worth their own future H2 or post.
