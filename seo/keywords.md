@@ -346,3 +346,16 @@ account-health history across other client shops (deactivations, listing
 violations) as a specific due-diligence question, distinct from the general
 "red flags" framing already covered on other pages. Both are commercial,
 buyer-checklist angles worth their own future H2 or post.
+
+| 88 | tiktok shop gmv max cold start budget for new products with no sales history | informational | todo |
+| 89 | ask a tiktok shop agency for a full landed-cost model before signing | commercial | todo |
+
+Rows 88-89 added 2026-11-26 (live research) — sourced while researching this
+run's refresh target (`tiktok-shop-marketing-agency-for-startups.html`): TikTok's
+own GMV Max guidance publishes a budget formula (2x historical non-LIVE GMV /
+ROI target) that assumes sales history a startup doesn't have yet, with a
+separate cold-start experiment budget for products with none — this run's new
+H2 answered that at a high level; a second, narrower buyer-vetting angle from
+agency-hiring guides (asking for a full landed-cost model, not just a retainer
+quote, before signing) was not used on this page and is worth its own future
+H2 or post.

@@ -17,7 +17,7 @@ from the footer "Buyer guides" column and 4+ links from "Related guides" blocks.
 | 3 | blog/questions-to-ask-before-hiring-a-tiktok-shop-agency.html | 11 impr, pos 14.6 | done 2026-11-23 |
 | 4 | blog/tiktok-shop-management-services.html | 11 impr, pos 8.8 | done 2026-11-24 |
 | 5 | blog/tiktok-shop-agency-retainer-vs-commission-pricing.html | 17 impr, pos 7.1 | done 2026-11-25 |
-| 6 | blog/tiktok-shop-marketing-agency-for-startups.html | 4 impr, pos 7.8 | open |
+| 6 | blog/tiktok-shop-marketing-agency-for-startups.html | 4 impr, pos 7.8 | done 2026-11-26 |
 | 7 | blog/tiktok-shop-compliance-requirements-usa.html | 105 impr, pos 37.6 | open |
 | 8 | blog/best-tiktok-shop-agency-for-ecommerce-brands.html | 166 impr, pos 67.1 | open |
 | 9 | blog/tiktok-shop-agency-usa.html | 119 impr, pos 77.2 | open |
